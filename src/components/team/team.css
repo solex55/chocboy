@@ -1,0 +1,19 @@
+.team_container{
+ position: relative;
+ height: 50vw;
+}
+.teamline{
+    position: absolute;
+    top: 50%;
+}
+.team_member_card{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
+}

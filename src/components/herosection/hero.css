@@ -1,0 +1,9 @@
+.herosection{
+    top: 20%;
+}
+
+@media screen and (min-width: 1004px) {
+    .herosection{
+        top: 45%;
+    }
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html {
+    font-family: Poppins, sans-serif;
+  }
+}
+
+:root {
+    --primary-linear: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    --secondary-color: #fbb040;
+    --primary-color: #39170f;
+  }
+  
+
+  .text-main {
+    color: var(--primary-color);
+  }
+  
+  .text-sec {
+    color: var(--secondary-color);
+  }
+  .bg-main {
+    background: var(--primary-color);
+  }
+  .bg-sec {
+    background: var(--secondary-color);
+  }
+
+  .hero-head {
+    line-height: 140%;
+}
