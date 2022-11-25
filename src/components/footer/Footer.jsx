@@ -26,7 +26,7 @@ function footer() {
                 </div>
             </div>
 
-            <div className='flex flex-col lg:flex-row justify-between items-center mx-4 px-4 lg:px-8 w-full text-xl font-bold'>
+            <div className='flex flex-col lg:flex-row justify-between items-center mx-4 px-4 lg:px-8 w-full text-xl lg:font-bold'>
                 <div>
                     <p> &copy; 2022 Chocboy. All rights Reserved</p>
                 </div>
