@@ -31,7 +31,7 @@ function footer() {
                     <p> &copy; 2022 Chocboy. All rights Reserved</p>
                 </div>
 
-                <div className='flex flex-col lg:flex-row justify-between items-center gap-4'>
+                <div className='flex flex-row justify-between items-center gap-4'>
                     <p>Terms &#38; Condition</p>
                     <p>Privacy Policy.</p>
                 </div>
