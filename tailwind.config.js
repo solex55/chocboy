@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
       'footer-pat' : "url('../src/assets/footer.png')",
+      'discover' : "url('../src/assets/discover.png')",
       }, 
       fontFamily: {
         'Poppins' : ['Poppins', 'sans-serif'],

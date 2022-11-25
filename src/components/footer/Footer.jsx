@@ -6,7 +6,7 @@ function footer() {
   return (
      
 
-    <footer className='w-full h-screen bg-no-repeat bg-cover bg-center bg-footer-pat relative mt-16'>
+    <footer className='w-full h-screen bg-no-repeat bg-cover bg-center bg-footer-pat relative mt-16 object-cover'>
         <div className='absolute  top-1/2 mx-auto w-full justify-center items-center'>
         <div class="footer_content flex flex-col z-3 text-white justify-center items-center">
             
