@@ -8,7 +8,7 @@ export default function Navbar({ fixed }) {
   return (
     <>
       <header>
-        <nav className="absolute flex flex-wrap items-center justify-between px-2 py-3 bg-sec z-30 w-full">
+        <nav className="absolute flex flex-wrap items-center justify-between px-2 py-3 bg-sec z-30 w-full ">
           <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
               <Link

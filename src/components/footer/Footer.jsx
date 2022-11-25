@@ -21,18 +21,18 @@ function footer() {
                     <FaInstagram />
                 </div>
                 <hr />
-                <div class="footer_sm text-center py-4 lg:py-8 px-8 lg:px-16 text-xl">
+                <div class="footer_sm text-center py-4 lg:py-8 px-4 lg:px-16 text-md">
                     <p>Block A Unit 5 Technology Incubation Centre Beside Oyo State Permanent Trade Fair Complex EXPOYO Off Oyo Road Ibadan.</p>
                 </div>
             </div>
 
-            <div className='flex justify-between items-center mx-4 px-8 w-full text-xl font-bold'>
+            <div className='flex flex-col lg:flex-row justify-between items-center mx-4 px-4 lg:px-8 w-full text-xl font-bold'>
                 <div>
-                    <p> 2022 Chocboy. All rights Reserved</p>
+                    <p> &copy; 2022 Chocboy. All rights Reserved</p>
                 </div>
 
-                <div className='flex justify-between items-center gap-4'>
-                    <p>Terms Condition</p>
+                <div className='flex flex-col lg:flex-row justify-between items-center gap-4'>
+                    <p>Terms &#38; Condition</p>
                     <p>Privacy Policy.</p>
                 </div>
             </div>

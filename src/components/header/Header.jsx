@@ -6,7 +6,7 @@ import './header.css'
 
 function Header({heroText}) {
   return (
-    <div className='relative w-full h-screen'>
+    <div className='relative w-full h-screen '>
         <div className='absolute z-20 top-0 left-0'>
             <img src={Heroimg} alt="hero-pic"/>
         </div>
