@@ -14,6 +14,8 @@
     --primary-linear: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     --secondary-color: #fbb040;
     --primary-color: #39170f;
+    --overlay-color: rgba(121, 55, 42, 0.54);
+    --sub-text: #79372A;
   }
   
 
@@ -24,6 +26,9 @@
   .text-sec {
     color: var(--secondary-color);
   }
+  .text-sub {
+    color: var(--sub-text);
+  }
   .bg-main {
     background: var(--primary-color);
   }
@@ -33,4 +38,8 @@
 
   .hero-head {
     line-height: 140%;
+}
+
+.bg-overlay{
+  background-color: var(--overlay-color);
 }

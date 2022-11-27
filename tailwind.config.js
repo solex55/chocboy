@@ -8,6 +8,8 @@ module.exports = {
       backgroundImage: {
       'footer-pat' : "url('../src/assets/footer.png')",
       'discover' : "url('../src/assets/discover.png')",
+      'process' : "url('../src/assets/process.png')",
+      'recipe' : "url('../src/assets/recipe.png')",
       }, 
       fontFamily: {
         'Poppins' : ['Poppins', 'sans-serif'],

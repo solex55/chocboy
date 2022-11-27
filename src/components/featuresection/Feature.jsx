@@ -36,20 +36,22 @@ function Feature() {
 
 
     <div className='py-16 mx-8 mb-16 lg:mx-24 '>
-        <h3 className='font-bold text-3xl text-main text-center mb-8'>ChocParty</h3>
+        <h3 className='text-sub text-center mb-8 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl mb-8'>ChocParty</h3>
 
-        <div className='flex justify-center gap-8  items-center mb-8'>
-            <div>
-                <img src={party1} alt=""  />
+        <div className='flex justify-between gap-8  items-center mb-8'>
+            <div className='w-1/2'>
+                <img src={party1} alt=""  className='w-full'/>
             </div>
-            <div>
-                <img src={party2} alt="" />
+            <div className='w-1/2'>
+                <img src={party2} alt="" className='w-full'/>
             </div>
         </div>
 
-        <div className='text-main flex flex-col w-full justify-center px-0 lg:px-16'>
-            <p className='text-justify'>The ChocParty, which was conceived out of the need to provide an avenue for families and friends to bond, not just with one another, but also with other people, will this year host its 10th consecutive edition and with the endorsement of Oyo State Ministry of Youths and</p>
-            <Link to="/" className='text-main font-bold hover-cursor-pointer'>See More</Link>
+        <div className='text-main flex flex-col w-full justify-center '>
+            <p className='text-justify'>The ChocParty, which was conceived out of the need to provide an avenue for families and friends to bond, not just with one another, but also with other people, will this year host its 10th consecutive edition and with the endorsement of Oyo State Ministry of Youths and 
+                <Link to="/" className='text-main font-bold no-underline hover-cursor-pointer hover:underline'> See More</Link>
+            </p>
+            
         </div>
     </div>
 
