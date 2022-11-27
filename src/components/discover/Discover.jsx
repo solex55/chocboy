@@ -19,9 +19,9 @@ function Discover() {
                   
                   <div className="process h-96 w-60 rounded-lg ">
                       <div className='relative w-full h-full overlay-des rounded-lg'>
-                        <div className='flex flex-col gap-8 px-4 lg:px-4 absolute top-1/2 justify-center items-center'>
-                          <p className='text-2xl justify-center text-center font-bold'>OUR PROCESS</p>
-                          <button className='inline-flex items-center justify-center px-4 lg:px-8 py-3 text-3xl font-bold text-center bg-sec text-main rounded-lg '>
+                        <div className='flex flex-col gap-8 px-4 lg:px-4 absolute top-1/2 left-0 justify-center items-center'>
+                          <p className='text-xl lg:text-2xl justify-center text-center font-bold'>OUR PROCESS</p>
+                          <button className='inline-flex items-center justify-center px-4 lg:px-8 py-3 text-xl lg:text-3xl font-bold text-center bg-sec text-main rounded-lg '>
                               Discover
                           </button>
                           
@@ -31,8 +31,8 @@ function Discover() {
                   <div className="recipe h-96 w-60 rounded-lg ">
                       <div className='relative w-full h-full overlay-des rounded-lg'>
                         <div className='flex flex-col gap-8 px-4 lg:px-4  absolute top-1/2 left-0 justify-center items-center'>
-                          <p className='text-2xl justify-center text-center font-bold'>OUR RECIPE</p>
-                          <button className='inline-flex items-center justify-center px-4 lg:px-8 py-3 text-3xl font-bold text-center bg-sec text-main rounded-lg'>
+                          <p className='text-xl lg:text-2xl justify-center text-center font-bold'>OUR RECIPES </p>
+                          <button className='inline-flex items-center justify-center px-4 lg:px-8 py-3 text-xl lg:text-3xl font-bold text-center bg-sec text-main rounded-lg'>
                               Discover
                           </button>
                           

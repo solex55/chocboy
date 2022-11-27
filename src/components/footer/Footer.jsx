@@ -26,12 +26,12 @@ function footer() {
                 </div>
             </div>
 
-            <div className='flex flex-col lg:flex-row justify-between items-center mx-4 px-4 lg:px-8 w-full text-xl lg:font-bold'>
+            <div className='flex flex-col lg:flex-row justify-between items-center mx-4 px-4 lg:px-8 w-full text-lg lg:font-bold'>
                 <div>
                     <p> &copy; 2022 Chocboy. All rights Reserved</p>
                 </div>
 
-                <div className='flex flex-row justify-between items-center gap-4 bg-main'>
+                <div className='flex flex-row justify-between items-center gap-4 bg-foot text-lg'>
                     <p>Terms &#38; Condition</p>
                     <p>Privacy Policy.</p>
                 </div>

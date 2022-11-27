@@ -16,6 +16,7 @@
     --primary-color: #39170f;
     --overlay-color: rgba(121, 55, 42, 0.54);
     --sub-text: #79372A;
+    --foot-style: #4d2117;
   }
   
 
@@ -34,6 +35,12 @@
   }
   .bg-sec {
     background: var(--secondary-color);
+  }
+  .bg-sub {
+    background: var(--sub-text);
+  }
+  .bg-foot {
+    background: var(--foot-style);
   }
 
   .hero-head {
