@@ -4,11 +4,11 @@
 }
 .teamline{
     position: absolute;
-    top: 50%;
+    top: 30%;
 }
 .team_member_card{
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 10%;
     z-index: 10;
     display: flex;

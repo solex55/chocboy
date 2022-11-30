@@ -4,57 +4,39 @@ import React from 'react'
 function Abouttext() {
   return (
     <div>
-        <div className='mx-8 lg:mx-20 my-16'>
-            <p className='pb-8'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consectetur, soluta veniam possimus nulla autem repellat corrupti eos numquam reiciendis, sed voluptas nam dolorem explicabo commodi! Exercitationem, officiis sit! Dolores.
-                Ducimus id non pariatur quibusdam blanditiis amet sit quasi alias tenetur aliquid nisi quae libero illum nesciunt quidem fugiat, temporibus soluta ex nostrum eum natus quaerat ipsa saepe corrupti? Inventore!
-                Corporis in eaque veniam aspernatur obcaecati tempora neque perspiciatis quae, eum magnam, cupiditate qui animi doloribus distinctio consequuntur eos tempore rerum dolore! Pariatur beatae amet autem harum id esse maiores!
-                At quo tempora vel et quisquam, magni deleniti dicta neque delectus dolore odit ullam voluptatum minima cum! Non reprehenderit ea veritatis. Soluta quas odit cupiditate, veritatis fugit aut tempora voluptatum!
-                Soluta obcaecati dignissimos quaerat numquam repudiandae commodi assumenda perspiciatis! Mollitia obcaecati quas consectetur eveniet corporis a voluptatibus, delectus molestias modi molestiae dolor tenetur sint repellendus, porro provident quam blanditiis ab.
-                Ducimus pariatur aut officiis eum veniam commodi deleniti doloribus alias! Fugit sequi odio magnam. Excepturi, aliquid tempora. Perspiciatis delectus vero voluptatum consequatur earum, sint obcaecati porro qui recusandae debitis velit!
-                Tempore natus numquam, sequi et dolor sint quod sunt debitis aperiam quam eius nulla ex esse optio expedita iusto iure vero qui, necessitatibus doloremque provident animi. Architecto inventore quo illum.
+        <div className='mx-8 lg:mx-20 mb-16 text-justify'>
+            <p className='pb-8 text-justify'>
+                The ChocBoy Brand is a chocolate production company located in Ibadan, Nigeria. It is the first indigenous bean-to- bar chocolate production company. The company began operation as a chocolate order and delivery service in 2010 when the founder, Oluwajare Fola-Bolumole was in the University of Ibadan studying Mechanical Engineering.
+                Upon graduation in 2012, the founder decided to run with the vision of pioneering the first indigenous chocolate manufacturing company in Nigeria. In October 2013, he registered the company with the Corporate Affairs Commission in Nigeria as The ChocBoy Brand. He later incorporated the company in 2020.
             </p>
             <p className='pb-8'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consectetur, soluta veniam possimus nulla autem repellat corrupti eos numquam reiciendis, sed voluptas nam dolorem explicabo commodi! Exercitationem, officiis sit! Dolores.
-                Ducimus id non pariatur quibusdam blanditiis amet sit quasi alias tenetur aliquid nisi quae libero illum nesciunt quidem fugiat, temporibus soluta ex nostrum eum natus quaerat ipsa saepe corrupti? Inventore!
-                Corporis in eaque veniam aspernatur obcaecati tempora neque perspiciatis quae, eum magnam, cupiditate qui animi doloribus distinctio consequuntur eos tempore rerum dolore! Pariatur beatae amet autem harum id esse maiores!
-                At quo tempora vel et quisquam, magni deleniti dicta neque delectus dolore odit ullam voluptatum minima cum! Non reprehenderit ea veritatis. Soluta quas odit cupiditate, veritatis fugit aut tempora voluptatum!
-                Soluta obcaecati dignissimos quaerat numquam repudiandae commodi assumenda perspiciatis! Mollitia obcaecati quas consectetur eveniet corporis a voluptatibus, delectus molestias modi molestiae dolor tenetur sint repellendus, porro provident quam blanditiis ab.
-                Ducimus pariatur aut officiis eum veniam commodi deleniti doloribus alias! Fugit sequi odio magnam. Excepturi, aliquid tempora. Perspiciatis delectus vero voluptatum consequatur earum, sint obcaecati porro qui recusandae debitis velit!
-                Tempore natus numquam, sequi et dolor sint quod sunt debitis aperiam quam eius nulla ex esse optio expedita iusto iure vero qui, necessitatibus doloremque provident animi. Architecto inventore quo illum.
+                Oluwajare travelled to the International Culinary Center, New York in August of 2015 to learn chocolate candy manufacturing where he developed his skill and became a chocolatier.
+                Upon returning to Nigeria, Oluwajare began developing his own chocolate candy variant and tested it several times till he officially launched it in April 2016. The ChocBoy Brand became the only source of customized chocolate in Nigeria.
             </p>
             <p className='pb-8'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consectetur, soluta veniam possimus nulla autem repellat corrupti eos numquam reiciendis, sed voluptas nam dolorem explicabo commodi! Exercitationem, officiis sit! Dolores.
-                Ducimus id non pariatur quibusdam blanditiis amet sit quasi alias tenetur aliquid nisi quae libero illum nesciunt quidem fugiat, temporibus soluta ex nostrum eum natus quaerat ipsa saepe corrupti? Inventore!
-                Corporis in eaque veniam aspernatur obcaecati tempora neque perspiciatis quae, eum magnam, cupiditate qui animi doloribus distinctio consequuntur eos tempore rerum dolore! Pariatur beatae amet autem harum id esse maiores!
-                At quo tempora vel et quisquam, magni deleniti dicta neque delectus dolore odit ullam voluptatum minima cum! Non reprehenderit ea veritatis. Soluta quas odit cupiditate, veritatis fugit aut tempora voluptatum!
-                Soluta obcaecati dignissimos quaerat numquam repudiandae commodi assumenda perspiciatis! Mollitia obcaecati quas consectetur eveniet corporis a voluptatibus, delectus molestias modi molestiae dolor tenetur sint repellendus, porro provident quam blanditiis ab.
-                Ducimus pariatur aut officiis eum veniam commodi deleniti doloribus alias! Fugit sequi odio magnam. Excepturi, aliquid tempora. Perspiciatis delectus vero voluptatum consequatur earum, sint obcaecati porro qui recusandae debitis velit!
-                Tempore natus numquam, sequi et dolor sint quod sunt debitis aperiam quam eius nulla ex esse optio expedita iusto iure vero qui, necessitatibus doloremque provident animi. Architecto inventore quo illum.
+                With a desire to have its product in every home in Nigeria, The ChocBoy Brand began developing and testing its own chocolate spread recipe and in September 2018 developed a world leading formulation for chocolate spread. The formulation excellently balances yumminess and healthy eating in a stylish plastic jar. A spread that smears evenly on any desired surface.
+                ChocBoy Chocolate Spread® got approved by NAFDAC (National Agency for Food and Drug Administration and Control) in November 2020 and began distribution in stores in Ibadan March2021.
             </p>
             <p className='pb-8'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consectetur, soluta veniam possimus nulla autem repellat corrupti eos numquam reiciendis, sed voluptas nam dolorem explicabo commodi! Exercitationem, officiis sit! Dolores.
-                Ducimus id non pariatur quibusdam blanditiis amet sit quasi alias tenetur aliquid nisi quae libero illum nesciunt quidem fugiat, temporibus soluta ex nostrum eum natus quaerat ipsa saepe corrupti? Inventore!
-                Corporis in eaque veniam aspernatur obcaecati tempora neque perspiciatis quae, eum magnam, cupiditate qui animi doloribus distinctio consequuntur eos tempore rerum dolore! Pariatur beatae amet autem harum id esse maiores!
-                At quo tempora vel et quisquam, magni deleniti dicta neque delectus dolore odit ullam voluptatum minima cum! Non reprehenderit ea veritatis. Soluta quas odit cupiditate, veritatis fugit aut tempora voluptatum!
-                Soluta obcaecati dignissimos quaerat numquam repudiandae commodi assumenda perspiciatis! Mollitia obcaecati quas consectetur eveniet corporis a voluptatibus, delectus molestias modi molestiae dolor tenetur sint repellendus, porro provident quam blanditiis ab.
-                Ducimus pariatur aut officiis eum veniam commodi deleniti doloribus alias! Fugit sequi odio magnam. Excepturi, aliquid tempora. Perspiciatis delectus vero voluptatum consequatur earum, sint obcaecati porro qui recusandae debitis velit!
-                Tempore natus numquam, sequi et dolor sint quod sunt debitis aperiam quam eius nulla ex esse optio expedita iusto iure vero qui, necessitatibus doloremque provident animi. Architecto inventore quo illum.
-            </p>
+                ChocBoy Chocolate Spread® is now present and available for sale in a few stores in Ibadan of which some are, FoodCo Supermarket (in 6 outlets), Feedwell Supermarket, Ace Mall, Mosh Supermarket, Wimpy Supermarket, World of Cosmetics and Shokem Supermarket.
+                The ChocBoy Chocolate Spread® is a premium chocolate spread and therefore most suitable for supermarkets where people with a higher purchasing power shop.
+                The product is currently put on the shelf alongside Nutella, the popular imported brand but has a better price than Nutella. It is cheaper than Nutella and Nutella fans tell us ChocBoy Chocolate Spread® is way better.            </p>
         </div>
 
         <div className='text-center mx-16 lg:mx-40 text-main my-20'>
             <h3 className='mb-8 font-bold text-3xl'>Our Mission</h3>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ad ullam obcaecati eligendi tempore quis pariatur nisi nam impedit? Fugit obcaecati cum, incidunt harum modi minus qui? Quia, impedit provident.
-             voluptas quaerat cum deserunt sit fugit assumenda corrupti incidunt facilis inventore vitae, consequatur blanditiis molestiae laudantium dicta qui eveniet aspernatur, cumque officia tenetur nisi quisquam ipsa! Ad, autem.</p>
+            <p>
+                We are committed to distinctively create premium chocolatey products in order to exceed customer expectations.
+            </p>
         </div>
 
         <div className='text-center mx-16 lg:mx-40 text-main my-20'>
             <h3 className='mb-8 font-bold text-3xl'>Our Vision</h3>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ad ullam obcaecati eligendi tempore quis pariatur nisi nam impedit? Fugit obcaecati cum, incidunt harum modi minus qui? Quia, impedit provident.
-             voluptas quaerat cum deserunt sit fugit assumenda corrupti incidunt facilis inventore vitae, consequatur blanditiis molestiae laudantium dicta qui eveniet aspernatur, cumque officia tenetur nisi quisquam ipsa! Ad, autem.</p>
+            <p>
+                We bring premium and quality to chocolate manufacturing while ensuring our customers feel “wowed” when consuming our yummy yet healthy chocolatey products.   
+            </p>
         </div>
 
     </div>

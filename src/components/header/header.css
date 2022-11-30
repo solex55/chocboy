@@ -1,3 +1,12 @@
 .herotext {
-    left: 40%;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+
+.overlay-des{
+    background-image:  linear-gradient(to bottom, rgba(121, 55, 42, 0.54)0%, #39170f 100%);   
 }

@@ -17,6 +17,7 @@
     --overlay-color: rgba(121, 55, 42, 0.54);
     --sub-text: #79372A;
     --foot-style: #4d2117;
+    --feat-color: #ECE6E4;
   }
   
 
@@ -41,6 +42,9 @@
   }
   .bg-foot {
     background: var(--foot-style);
+  }
+  .bg-feat {
+    background: var(--feat-color);
   }
 
   .hero-head {

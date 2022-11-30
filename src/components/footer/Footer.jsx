@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook, FaTwitter, FaLinkedin, FaInstagram} from 'react-icons/fa'
+import {FaFacebook, FaTwitter, FaHome, FaLinkedin, FaInstagram, FaMailBulk, FaPhone} from 'react-icons/fa'
 
 
 function footer() {
@@ -15,6 +15,8 @@ function footer() {
                     <h3 className="text-3xl font-bold md:text-3xl lg:text-5xl pb-4">Contact Us</h3>
                 </div>
                 <div class="footer_links flex justify-center items-center pb-4 space-x-4 md:space-x-8 lg:space-x-16">
+                    <FaMailBulk />
+                    <FaPhone />
                     <FaFacebook />
                     <FaTwitter />
                     <FaLinkedin />
@@ -22,16 +24,17 @@ function footer() {
                 </div>
                 <hr />
                 <div class="footer_sm text-center py-4 lg:py-8 px-4 lg:px-16 text-md">
-                    <p>Block A Unit 5 Technology Incubation Centre Beside Oyo State Permanent Trade Fair Complex EXPOYO Off Oyo Road Ibadan.</p>
+                    <div className='pb-4 lg:pb-4 flex justify-center items-center text-center'><FaHome /></div>
+                    <p className='text-md lg:text-3xl'>Block A Unit 5 Technology Incubation Centre Beside Oyo State Permanent Trade Fair Complex EXPOYO Off Oyo Road Ibadan.</p>
                 </div>
             </div>
 
-            <div className='flex flex-col lg:flex-row justify-between items-center mx-4 px-4 lg:px-8 w-full text-lg lg:font-bold'>
+            <div className='flex flex-col lg:flex-row justify-between items-center mx-4 px-4 lg:px-8 w-full text-md lg:text-3xl lg:font-bold'>
                 <div>
                     <p> &copy; 2022 Chocboy. All rights Reserved</p>
                 </div>
 
-                <div className='flex flex-row justify-between items-center gap-4 bg-foot text-lg'>
+                <div className='flex flex-row justify-between items-center gap-4 bg-foot text-md lg:text-3xl'>
                     <p>Terms &#38; Condition</p>
                     <p>Privacy Policy.</p>
                 </div>

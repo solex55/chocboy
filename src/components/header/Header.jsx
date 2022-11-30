@@ -11,13 +11,15 @@ function Header({heroText}) {
             <img src={Heroimg} alt="hero-pic"/>
         </div>
 
+        <div className='absolute overlay-des h-full w-full z-15  top-0 left-0 '></div>
+
         <div className='absolute z-10 top-0 left-0 h-full'>
             <img src={Herobar} alt="hero-pic" className='h-full'/>
         </div>
 
         <Nav />
 
-        <div className='absolute z-20 top-1/2 lg:top-3/4 text-5xl font-extrabold text-white text-center herotext'>
+        <div className='absolute z-30  text-5xl font-extrabold text-white herotext'>
             <p>{heroText}</p>
         </div>
     </div>
