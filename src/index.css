@@ -31,6 +31,12 @@
   .text-sub {
     color: var(--sub-text);
   }
+  .text-sub {
+    color: var(--sub-text);
+  }
+  .bg-sub {
+    color: var(--sub-text);
+  }
   .bg-main {
     background: var(--primary-color);
   }

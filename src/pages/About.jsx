@@ -5,10 +5,11 @@ import Abouttext from '../components/aboutText/Abouttext'
 import Team from '../components/team/Team'
 import Footer from '../components/footer/Footer'
 
+
 export default function About() {
   return (
     <div>
-      <Header heroText="About Us" />
+      <Header heroText="About Us"  />
       <Values />
       <Abouttext />
       <Team />
