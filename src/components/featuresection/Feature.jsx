@@ -49,7 +49,7 @@ function Feature() {
 
         <div className='text-main flex flex-col w-full justify-center '>
             <p className='text-justify'>The ChocParty, which was conceived out of the need to provide an avenue for families and friends to bond, not just with one another, but also with other people, will this year host its 10th consecutive edition and with the endorsement of Oyo State Ministry of Youths and 
-                <Link to="/" className='text-main font-bold no-underline hover-cursor-pointer hover:underline'> See More</Link>
+                <Link to="/chocparty" className='text-main font-bold no-underline hover-cursor-pointer hover:underline'> See More</Link>
             </p>
             
         </div>
