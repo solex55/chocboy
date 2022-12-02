@@ -35,7 +35,7 @@
     color: var(--sub-text);
   }
   .bg-sub {
-    color: var(--sub-text);
+    background: var(--sub-text);
   }
   .bg-main {
     background: var(--primary-color);

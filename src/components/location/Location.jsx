@@ -53,14 +53,14 @@ function Location() {
     <div>
         <div>
         <div className='mx-16 flex flex-col justify-center items-center'>
-            <img src={Locationpic} alt="Lagos Location"   />
-            <h3 className='py-4 text-main text-5xl font-semibold'>Shop Our Products</h3>
-            <p className='py-4 text-main text-3xl font-bold'>Lagos</p>
+            <img src={Locationpic} alt="Lagos Location" className='w-8 lg:w-16'  />
+            <h3 className='py-4 text-main text-3xl lg:text-5xl font-semibold'>Shop Our Products</h3>
+            <p className='py-4 text-main text-xl lg:text-3xl font-bold'>Lagos</p>
         </div>
-        <div className='flex flex-wrap gap-8 px-20 justify-center'>
+        <div className='flex flex-wrap gap-4 lg:gap-8 px-20 justify-center'>
             {Lagosplace && Lagosplace.map((lagos) => (
                 <div id={lagos.id}>
-                   <button className='px-4 py-4 pb4 w-72 text-center text-white bg-sub rounded-md shadow-md text-xl font-bold'>{lagos.place}</button>
+                   <button className='px-4 py-4 w-36 lg:w-72 text-center text-white bg-main rounded-md shadow-md text-sm lg:text-xl font-bold'>{lagos.place}</button>
                 </div> 
             ))}
         </div>
@@ -68,12 +68,12 @@ function Location() {
 
     <div>
         <div className='mx-16 flex flex-col justify-center items-center'>
-            <p className='py-16 text-main text-3xl font-bold'>Ibadan</p>
+            <p className='py-16 text-main text-xl lg:text-3xl font-bold'>Ibadan</p>
         </div>
-        <div className='flex flex-wrap gap-8 px-20 justify-center'>
+        <div className='flex flex-wrap gap-4 lg:gap-8 px-20 justify-center'>
             {Ibadanplace && Ibadanplace.map((ibadan) => (
                 <div id={ibadan.id}>
-                   <button className='px-4 py-4 pb4 w-72 text-center text-white bg-sub  rounded-md shadow-md text-xl font-bold'>{ibadan.place}</button>
+                   <button className='px-4 py-4 w-36 lg:w-72 text-center text-white bg-main  rounded-md shadow-md text-sm lg:text-xl font-bold'>{ibadan.place}</button>
                 </div> 
             ))}
         </div>
