@@ -6,6 +6,7 @@ import partychoc3 from '../../assets/image16.png';
 import partychoc4 from '../../assets/image17.png';
 import partychoc5 from '../../assets/image18.png';
 import partychoc6 from '../../assets/image19.png';
+import ticket from '../../assets/image7.png';
 
 function Party() {
   return (
@@ -28,6 +29,17 @@ function Party() {
                 Experience, that one thing we guarantee at ChocParty, is the reason we double our creative efforts every year. We ensure that each attendee is served fun at every turn and offered excitement at every sight. It is therefore not much of a surprise that our attendance has grown in leaps and bounds as the years pass.            
             </p>
         </div>
+
+        <div className='flex flex-col lg:flex-row gap-12 py-16'>
+            <div className='w-full lg:w-1/2 h-64'>
+                <img src={ticket} alt="" className='w-full rounded h-full'/>
+            </div>
+            <div className='flex flex-col w-full lg:w-1/2 justify-center'>
+                <input type="text" name="ticket" id="ticket"placeholder='Enter Your Name'  className='form-control mb-4 block w-full  bg-clip-padding border border-solid border-gray-400 transition ease-in-out m-0  px-4 py-2 text-xl font-normal text-gray-700 bg-white rounded mb-2 focus:text-gray-700 focus:border-bg-main' />
+                <input type="submit" value="Ticket" className='bg-sec text-main text-2xl rounded-md cursor-pointer px-4 py-2 font-semibold'  />
+            </div>
+        </div>
+
 
         <div>
             <div className='flex flex-col lg:flex-row pb-8 gap-8'>
