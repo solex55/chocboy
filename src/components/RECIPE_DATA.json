@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title" : "Chocboy Brownies",
+        "description" : "Make 3 Ingrident ChocBoy Brownies in minutes featueing a fudgy texture  and gorgeous chocolatelty flavour",
+        "pic" : "./images/brownies.png"
+    },
+    {
+        "id": 2,
+        "title" : "Chocboy Bread",
+        "description" : "Ingredients\\\\n100 grams flour \n100 grams strong\\nflour \n  1 tsp. honey",
+        "pic" : "images/bread.png"
+    },
+    {
+        "id": 3,
+        "title" : "Chocboy Mousse",
+        "description" : "Total Time - 25 mins \n   Servings – 3 to 4 ",
+        "pic" : "images/mousse.png"
+    },
+    {
+        "id": 4,
+        "title" : "Choco Chip Cookie",
+        "description" : "Total Time - 3 hours  '\\n'    Servings – 8 to 10         ",
+        "pic" : "./images/cookie.png"
+    },
+    {
+        "id": 5,
+        "title" : "Chocboy Truffles",
+        "description" : "Prep Time - 10 mins \\n        Cook Time - 10 mins \\n        Total Time - 20 mins \\n   Servings – 10 – 15        ",
+        "pic" : "./images/truffles.png"
+    },
+    {
+        "id": 6,
+        "title" : "ChocBoy Mini Breadstick",
+        "description" : "Ingredients <br>        210 grams Bread (strong) flour \\n 90 grams Cake flour \\n   60 grams Sugar ",
+        "pic" : "./images/breadstick.png"
+    }
+]
