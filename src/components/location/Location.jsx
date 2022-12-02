@@ -60,7 +60,7 @@ function Location() {
         <div className='flex flex-wrap gap-8 px-20 justify-center'>
             {Lagosplace && Lagosplace.map((lagos) => (
                 <div id={lagos.id}>
-                   <button className='px-4 py-4 pb4 w-72 text-center text-white bg-subrounded-md shadow-md text-xl font-bold'>{lagos.place}</button>
+                   <button className='px-4 py-4 pb4 w-72 text-center text-white bg-sub rounded-md shadow-md text-xl font-bold'>{lagos.place}</button>
                 </div> 
             ))}
         </div>
