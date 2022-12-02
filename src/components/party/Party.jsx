@@ -12,7 +12,7 @@ function Party() {
     <div className='py-16 mx-8 lg:mx-24 '>
         <div>
             <h3 className='text-xl lg:4xl text-main text-center pb-8 font-semibold'>ChocParty 2022</h3>
-            <div className='pb-8 w-full h-16 lg:h-32 w-full'>
+            <div className='pb-8 w-full h-56 lg:h-full w-full'>
                 <img src={partychoc} alt="partychocboy" className='h-full w-full'/>
             </div>
         </div>
