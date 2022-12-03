@@ -1,0 +1,62 @@
+[
+    {
+        "pic" : "./images/brownies.png",
+        "title" : "Chocboy Chocolate spread (475g)",
+        "price" : "$12",
+        "id" : 1,
+        "state" : false
+
+    },
+    {
+        "pic" : "./images/brownies.png",
+        "title" : "Chocboy Chocolate spread (325g)",
+        "price" : "$10",
+        "1d" : 2,
+        "state" : false
+
+    },
+    {
+        "pic" : "./images/brownies.png",
+        "title" : "Chocboy Large Bar",
+        "price" : "$15",
+        "id" : 3,
+        "state" : true
+    },
+    {
+        "pic" : "./images/brownies.png",
+        "title" : "Chocboy Small Bar",
+        "price" : "$12",
+        "id" : 4,
+        "state" : true
+    },
+    {
+        "pic" : "./images/brownies.png",
+        "title" : "Chocboy Go",
+        "price" : "$25",
+        "id" : 5,
+        "state" : false
+    },
+    {
+        "pic" : "./images/brownies.png",
+        "title" : "Chocboy Sweet",
+        "price" : "$12",
+        "id" : 6,
+        "state" : true
+
+    },
+    {
+        "pic" : "./images/brownies.png",
+        "title" : "Chocboy Tickets",
+        "price" : "$5",
+        "id" : 7,
+        "state" : false
+
+    },
+    {
+        "pic" : "./images/brownies.png",
+        "title" : "Chocki",
+        "price" : "$12",
+        "id" : 8,
+        "state" : true
+    }
+]

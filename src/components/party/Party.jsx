@@ -31,7 +31,7 @@ function Party() {
         </div>
 
         <div className='flex flex-col lg:flex-row gap-12 py-16'>
-            <div className='w-full lg:w-1/2 h-64'>
+            <div className='w-full lg:w-1/2 h-72 lg:h-full'>
                 <img src={ticket} alt="" className='w-full rounded h-full'/>
             </div>
             <div className='flex flex-col w-full lg:w-1/2 justify-center'>
@@ -44,26 +44,26 @@ function Party() {
         <div>
             <div className='flex flex-col lg:flex-row pb-8 gap-8'>
                 <div className='w-full lg:w-1/2'>
-                    <img src={partychoc1} alt="" className='w-full' />
+                    <img src={partychoc1} alt="" className='w-full transform transition-all hover:scale-125' />
                 </div>
                 <div className='w-full lg:w-1/2'>                    
-                    <img src={partychoc2} alt="" className='w-full' />
+                    <img src={partychoc2} alt="" className='w-full transform transition-all hover:scale-125' />
                 </div>
             </div>
             <div className='flex flex-col lg:flex-row  pb-8 gap-8'>
                 <div className='w-full lg:w-1/2'>
-                    <img src={partychoc3} alt="" className='w-full' />
+                    <img src={partychoc3} alt="" className='w-full transform transition-all hover:scale-125' />
                 </div>
                 <div className='w-full lg:w-1/2'>                    
-                    <img src={partychoc4} alt="" className='w-full' />
+                    <img src={partychoc4} alt="" className='w-full transform transition-all hover:scale-125' />
                 </div>
             </div>
             <div  className='flex flex-col lg:flex-row pb-8 gap-8'>
                 <div className='w-full lg:w-1/2'>
-                    <img src={partychoc5} alt="" className='w-full' />
+                    <img src={partychoc5} alt="" className='w-full transform transition-all hover:scale-125' />
                 </div>
                 <div className='w-full lg:w-1/2'>                    
-                    <img src={partychoc6} alt="" className='w-full' />
+                    <img src={partychoc6} alt="" className='w-full transform transition-all hover:scale-125' />
                 </div>
             </div>
             

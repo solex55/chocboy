@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import choclogo from '../../assets/chocboy-logo.png';
+import cat from '../../assets/shop.png';
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
       <header>
-        <nav className="absolute flex flex-wrap items-center justify-between px-2 py-3 bg-sec z-30 w-full ">
+        <nav className="absolute flex flex-wrap items-center justify-between px-2 py-3 bg-sec z-40 w-full ">
           <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
               <Link
@@ -56,6 +57,10 @@ export default function Navbar({ fixed }) {
                 <button className='bg-main hover:border-transparent hover:text-main text-sec py-2 px-4 rounded-md z-20'>
                   Sign up
                 </button>
+
+                <Link className='px-4 py-2 flex items-center leading-snug  hover:opacity-75' to="/shop">
+                  <img src={cat} alt="Chocboyshop" />
+                </Link>
               </ul>
               
             </div>

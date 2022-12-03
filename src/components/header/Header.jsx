@@ -7,14 +7,14 @@ import './header.css'
 function Header({heroText}) {
   return (
     <div className='relative w-full h-screen '>
-        <div className='absolute z-20 top-0 left-0'>
-            <img src={Heroimg} alt="hero-pic"/>
+        <div className='absolute z-20 top-0 left-0 h-56 lg:h-fit'>
+            <img src={Heroimg} alt="hero-pic" className='h-full'/>
         </div>
 
         <div className='absolute overlay-des h-full w-full z-15  top-0 left-0 '></div>
 
-        <div className='absolute z-10 top-0 left-0 h-full'>
-            <img src={Herobar} alt="hero-pic" className='h-full'/>
+        <div className='absolute z-10 top-0 left-0 h-full w-full'>
+            <img src={Herobar} alt="hero-pic" className='h-full w-full'/>
         </div>
 
         <Nav />
