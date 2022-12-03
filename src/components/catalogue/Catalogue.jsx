@@ -1,6 +1,6 @@
 import React from 'react'
-import CATALOGUEDATA from '../SHOP_DATA.json'
-
+/* import CATALOGUEDATA from '../SHOP_DATA.json'
+ */
 function Catalogue() {
   return (
     <div className='py-16 mx-8 lg:mx-24 flex flex-wrap'>
