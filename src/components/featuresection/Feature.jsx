@@ -11,7 +11,7 @@ import party2 from '../../assets/party2.png';
 function Feature() {
   return (
     <div>
-        <div className='flex flex-col lg:flex-row space-x-0 lg:space-x-4 mt-48 mx-8 justify-center items-center text-xl font-bold text-main text-center'>
+        <div className='flex flex-col lg:flex-row space-x-0 lg:space-x-4 mt-16 md:mt-[28rem] lg:mt-48 mx-8 justify-center items-center text-xl font-bold text-main text-center'>
         <div className='flex space-x-4'>
             <div>
                 <img src={frame1} alt="frame" className='rounded-xl' />

@@ -20,9 +20,9 @@ function Recipe() {
 
         {RECIPEDATA && RECIPEDATA.map((recipe) => (
             <div className='flex flex-col lg:flex-row w-full px-16 gap-8' id={recipe.id}>
-                <div className='py-8 w-full lg:w-1/2'>
+                <div className='py-8 w-full lg:w-1/2 whitespace-pre-wrap'>
                     <h1 className='text-3xl lg:text-3xl text-main font-bold'>{recipe.title}</h1>
-                    <p className='text-justify my-4 lg:my-8'>{recipe.description}</p>
+                    <p className='text-justify my-4 lg:my-8 whitespace-pre-wrap'>{recipe.description}</p>
                     <button className='w-full py-4 text-center text-main bg-sec rounded-xl text-xl font-bold'>Discover More</button>
                 </div>
                 <div className='pb-8 lg:pb-8 py-0 lg:py-8  w-full lg:w-1/2'>

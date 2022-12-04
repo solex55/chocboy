@@ -8,31 +8,31 @@
     {
         "id": 2,
         "title" : "Chocboy Bread",
-        "description" : "Ingredients 100 grams flour 100 grams strong flour  1 tsp. honey",
+        "description" : "Ingredients\n100 grams flour\n100 grams strong flour\n1 tsp. honey",
         "pic" : "images/bread.png"
     },
     {
         "id": 3,
         "title" : "Chocboy Mousse",
-        "description" : "Total Time - 25 mins    Servings – 3 to 4 ",
+        "description" : "Total Time - 25 mins\nServings – 3 to 4 ",
         "pic" : "images/mousse.png"
     },
     {
         "id": 4,
         "title" : "Choco Chip Cookie",
-        "description" : "Total Time - 3 hours     Servings – 8 to 10         ",
+        "description" : "Total Time - 3 hours\nServings – 8 to 10         ",
         "pic" : "./images/cookie.png"
     },
     {
         "id": 5,
         "title" : "Chocboy Truffles",
-        "description" : "Prep Time - 10 mins        Cook Time - 10 mins       Total Time - 20 mins   Servings – 10 – 15        ",
+        "description" : "Prep Time - 10 mins  \nCook Time - 10 mins\nTotal Time - 20 mins  \n Servings – 10 – 15        ",
         "pic" : "./images/truffles.png"
     },
     {
         "id": 6,
         "title" : "ChocBoy Mini Breadstick",
-        "description" : "Ingredients       210 grams Bread (strong) flour  90 grams Cake flour   60 grams Sugar ",
+        "description" : "Ingredients \n \n210 grams Bread  (strong) flour  \n90 grams Cake flour   \n60 grams Sugar ",
         "pic" : "./images/breadstick.png"
     }
 ]
