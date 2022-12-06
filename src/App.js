@@ -4,6 +4,7 @@ import About from './pages/About';
 import Products from './pages/Product';
 import Chocparty from './pages/Chocparty';
 import Shop from './pages/Shop';
+import Blog from './pages/Blog';
 import {Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/chocparty" element={<Chocparty />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </BrowserRouter>
     </>
