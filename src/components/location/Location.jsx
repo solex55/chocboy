@@ -60,7 +60,7 @@ function Location() {
         <div className='flex flex-wrap gap-4 lg:gap-8 px-4 lg:px-20 justify-center'>
             {Lagosplace && Lagosplace.map((lagos) => (
                 <div id={lagos.id}>
-                   <button className='px-4 py-4 w-28 lg:w-72 text-center text-white rounded-md shadow-md text-sm lg:text-xl font-bold' style={{background: "linear-gradient(180deg, #79372A 0%, #39170f 100%)"}}>{lagos.place}</button>
+                   <button className='px-2 lg:px-4 py-4 w-28 lg:w-72 text-center text-white rounded-md shadow-md text-sm lg:text-xl font-bold' style={{background: "linear-gradient(180deg, #79372A 0%, #39170f 100%)"}}>{lagos.place}</button>
                 </div> 
             ))}
         </div>
@@ -73,7 +73,7 @@ function Location() {
         <div className='flex flex-wrap gap-4 lg:gap-8 px-4 lg:px-20 justify-center'>
             {Ibadanplace && Ibadanplace.map((ibadan) => (
                 <div id={ibadan.id}>
-                   <button className='px-4 py-4 w-28 lg:w-72 text-center text-white  rounded-md shadow-md text-sm lg:text-xl font-bold' style={{background: "linear-gradient(180deg, #79372A 0%, #39170f 100%)"}}>{ibadan.place}</button>
+                   <button className='px-2 lg:px-4 py-4 w-28 lg:w-72 text-center text-white  rounded-md shadow-md text-sm lg:text-xl font-bold' style={{background: "linear-gradient(180deg, #79372A 0%, #39170f 100%)"}}>{ibadan.place}</button>
                 </div> 
             ))}
         </div>
