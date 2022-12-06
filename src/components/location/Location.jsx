@@ -57,10 +57,10 @@ function Location() {
             <h3 className='py-4 text-main text-3xl lg:text-5xl text-center font-semibold'>Shop Our Products</h3>
             <p className='py-4 text-main text-xl lg:text-3xl font-bold'>Lagos</p>
         </div>
-        <div className='flex flex-wrap gap-4 lg:gap-8 px-20 justify-center'>
+        <div className='flex flex-wrap gap-4 lg:gap-8 px-4 lg:px-20 justify-center'>
             {Lagosplace && Lagosplace.map((lagos) => (
                 <div id={lagos.id}>
-                   <button className='px-4 py-4 w-28 lg:w-72 text-center text-white bg-main rounded-md shadow-md text-sm lg:text-xl font-bold'>{lagos.place}</button>
+                   <button className='px-4 py-4 w-28 lg:w-72 text-center text-white rounded-md shadow-md text-sm lg:text-xl font-bold' style={{background: "linear-gradient(180deg, #79372A 0%, #39170f 100%)"}}>{lagos.place}</button>
                 </div> 
             ))}
         </div>
@@ -70,10 +70,10 @@ function Location() {
         <div className='mx-8 lg:mx-16 flex flex-col justify-center items-center'>
             <p className='py-16 text-main text-xl lg:text-3xl font-bold'>Ibadan</p>
         </div>
-        <div className='flex flex-wrap gap-4 lg:gap-8 px-20 justify-center'>
+        <div className='flex flex-wrap gap-4 lg:gap-8 px-4 lg:px-20 justify-center'>
             {Ibadanplace && Ibadanplace.map((ibadan) => (
                 <div id={ibadan.id}>
-                   <button className='px-4 py-4 w-28 lg:w-72 text-center text-white bg-main  rounded-md shadow-md text-sm lg:text-xl font-bold'>{ibadan.place}</button>
+                   <button className='px-4 py-4 w-28 lg:w-72 text-center text-white  rounded-md shadow-md text-sm lg:text-xl font-bold' style={{background: "linear-gradient(180deg, #79372A 0%, #39170f 100%)"}}>{ibadan.place}</button>
                 </div> 
             ))}
         </div>

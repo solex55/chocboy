@@ -13,8 +13,8 @@ function Header({heroText}) {
 
         <div className='absolute overlay-des h-full w-full z-15  top-0 left-0 '></div>
 
-        <div className='absolute z-10 top-0 left-0 h-full w-full'>
-            <img src={Herobar} alt="hero-pic" className='h-full w-full'/>
+        <div className='absolute z-10 top-0 left-0 h-full w-full' >
+            <img src={Herobar} alt="hero-pic" style={{background: "linear-gradient(90deg, #667eea 0%, #764ba2 100%)"}} className='h-full w-full'/>
         </div>
 
         <Nav />
