@@ -1,14 +1,16 @@
 import React from 'react'
-import regpic from '../../assets/sign.png';
-import {FcGoogle} from 'react-icons/fc'
+/* import regpic from '../../assets/sign.png';
+ */import {FcGoogle} from 'react-icons/fc'
 import {AiFillFacebook} from 'react-icons/ai'
+import { Link } from 'react-router-dom'
+
 
 function Signin() {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full'>
+   /*  <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full'>
         <div className='hidden sm:block  h-screen w-full bg-gray-100'>
             <img src={regpic} alt="" className='w-full h-full object-cover'/>
-        </div>
+        </div> */
 
         <div className='bg-gray-100 flex flex-col justify-center'>
             <form className="max-w-[400px] w-full mx-auto p-4">
@@ -33,12 +35,14 @@ function Signin() {
                 </div>
 
                 <div>
-                    <p className='text-xl text-center'>Not a member? <span className='text-sec'>Sign Up Now</span></p>
+                   
+                        <p className='text-xl text-center'>Not a member?  <Link to="/register"><span className='text-sec'>Sign Up Now</span></Link></p>
+                    
                 </div>
             </form>
         </div>
-    </div>
-  )
+/*     </div>
+ */  )
 }
 
 export default Signin

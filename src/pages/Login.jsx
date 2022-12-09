@@ -1,11 +1,13 @@
 import React from 'react'
-import Signin from '../components/sign/Signin'
-
+/* import Regcontainer from '../components/sign/Regcontainer'
+ */import Logincontainer from '../components/sign/Logincontainer'
+/* import Signin from '../components/sign/Signin'
+ */
 
 function Login() {
   return (
     <div>
-       <Signin /> 
+       <Logincontainer /> 
     </div>
   )
 }

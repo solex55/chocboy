@@ -6,6 +6,7 @@ import Chocparty from './pages/Chocparty';
 import Shop from './pages/Shop';
 import Blog from './pages/Blog';
 import Login from './pages/Login';
+import Register from './pages/Register';
 import {Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </BrowserRouter>
     </>
