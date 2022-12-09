@@ -5,6 +5,7 @@ import Products from './pages/Product';
 import Chocparty from './pages/Chocparty';
 import Shop from './pages/Shop';
 import Blog from './pages/Blog';
+import Login from './pages/Login';
 import {Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/chocparty" element={<Chocparty />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </>

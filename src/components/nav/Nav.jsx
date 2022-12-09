@@ -53,10 +53,11 @@ export default function Navbar({ fixed }) {
                 </li>
 
                 
-                  
+                 <Link to="/login"> 
                 <button className='bg-main hover:border-transparent hover:text-main text-sec py-2 px-4 rounded-md z-20'>
                   Sign up
                 </button>
+                </Link>
 
                 <Link className='px-4 py-2 flex items-center leading-snug  hover:opacity-75' to="/shop">
                   <img src={cat} alt="Chocboyshop" />
