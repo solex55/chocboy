@@ -16,7 +16,7 @@ function Catalogue() {
                         <div className=' flex justify-between items-center w-full '>
                             <p className='font-bold text-xl'>{cat.price}</p>
                             {cat.state === true && (<button className='px-4 py-4 text-center text-main bg-yellow-200 rounded-3xl'>Custom order</button>)}
-                            <button className='flex gap-2 px-4 lg:px-8 py-4 text-center text-main bg-sec rounded-xl text-lg font-bold'>Add To Cat <img src={shoplogo} alt="shoplogo"  /> </button>
+                            <button className='flex gap-2 px-4 lg:px-8 py-4 text-center text-main bg-sec rounded-xl text-md font-bold'>Add To Cart <img src={shoplogo} alt="shoplogo"  /> </button>
                         </div>
                     </div>
             ))} 

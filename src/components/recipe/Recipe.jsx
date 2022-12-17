@@ -1,7 +1,7 @@
 import React from 'react'
 import RECIPEDATA from '../RECIPE_DATA.json'
- /* import Brownies from '../../assets/brownies.png';
- */
+import { Link } from 'react-router-dom'
+
 
 function Recipe() {
 
@@ -23,7 +23,9 @@ function Recipe() {
                 <div className='py-8 w-full lg:w-1/2 whitespace-pre-wrap'>
                     <h1 className='text-3xl lg:text-3xl text-main font-bold'>{recipe.title}</h1>
                     <p className='text-justify my-4 lg:my-8 whitespace-pre-wrap'>{recipe.description}</p>
-                    <button className='w-full py-4 text-center text-main bg-sec rounded-xl text-xl font-bold'>Discover More</button>
+                    <Link to={recipe.link}>
+                        <button className='w-full py-4 text-center text-main bg-sec rounded-xl text-xl font-bold'>Discover More</button>
+                    </Link>
                 </div>
                 <div className='pb-8 lg:pb-8 py-0 lg:py-8  w-full lg:w-1/2'>
                     <img src={recipe.pic} alt="" className='w-full'/>

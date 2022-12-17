@@ -15,7 +15,8 @@ function Feature() {
         <div className='flex space-x-4'>
             <div>
                 <img src={frame1} alt="frame" className='rounded-xl' />
-                <p>Our Amazing Product</p>
+                <Link to='/products' className='cursor-pointer'><p>Our Amazing Product</p></Link>
+                
             </div>
             <div>
                 <img src={frame2} alt="frame"  />
@@ -29,7 +30,8 @@ function Feature() {
             </div>
             <div>
                 <img src={frame4} alt="frame"  />
-                <p>Navigate to our store</p>
+                <Link to='/shop' className='cursor-pointer'><p>Navigate to our store</p></Link>
+                
             </div>
         </div>
     </div>

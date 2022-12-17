@@ -31,7 +31,9 @@ function Signin() {
                 <button className='w-full text-center bg-sec text-main my-4 rounded-xl py-2 font-semibold border hover:bg-transparent hover:border-bg-sec'>Sign In</button>
                 
                 <div className='mb-12'>
-                    <p className='text-sec text-xl text-center'>Forgot Password</p>
+                    <Link to="/forgotpassword">
+                        <p className='text-sec text-xl text-center'>Forgot Password</p>
+                    </Link>
                 </div>
 
                 <div>
