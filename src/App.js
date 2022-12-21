@@ -13,6 +13,7 @@ import Bread from './pages/Bread';
 import Tuffles from './pages/Tuffles';
 import Breadstick from './pages/Breadstick';
 import Cookie from './pages/Cookie';
+import Contactus from './pages/Contactus';
 import {Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path="/chocboy-tuffles" element={<Tuffles />} />
           <Route path="/chocboy-cookies" element={<Cookie />} />
           <Route path="/chocboy-breadstick" element={<Breadstick />} />
+          <Route path="/contact-us" element={<Contactus />} />
         </Routes>
       </BrowserRouter>
     </>

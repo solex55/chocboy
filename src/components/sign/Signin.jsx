@@ -3,17 +3,42 @@ import React from 'react'
  */import {FcGoogle} from 'react-icons/fc'
 import {AiFillFacebook} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import { useFormik} from 'formik'
+import * as Yup from 'yup'
+import './signin.css'
+import {  FaArrowLeft } from "react-icons/fa";
 
+const initialValues = {
+    email : '',
+    password : ''
+}
+
+const onSubmit= async (values, actions) => {
+    console.log('form data', values);
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+    actions.resetForm();
+}
+
+const validationSchema = Yup.object({
+    email : Yup.string().email('Invalid email Format').required('Field is Required'),
+    password: Yup.string().min(8).required('Field is Required')
+})
 
 function Signin() {
-  return (
-   /*  <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full'>
-        <div className='hidden sm:block  h-screen w-full bg-gray-100'>
-            <img src={regpic} alt="" className='w-full h-full object-cover'/>
-        </div> */
+const formik = useFormik({
+    initialValues,
+    onSubmit,
+    validationSchema
+})
+    return (
+        <div className='bg-gray-100 flex flex-col justify-center'>
+        <div className='p-4 w-8'>
+            <Link to="/">< FaArrowLeft /></Link>
+        </div>
 
         <div className='bg-gray-100 flex flex-col justify-center'>
-            <form className="max-w-[400px] w-full mx-auto p-4">
+        
+            <form className="max-w-[800px] w-full mx-auto p-4" onSubmit={formik.handleSubmit}>
                 <h2 className='text-4xl font-bold text-main py-6'>Welcome Back!</h2>
 
                 <div className='flex justify-between'>
@@ -22,13 +47,15 @@ function Signin() {
                 </div>
 
                 <div className='flex flex-col py-2'>
-                    <input type="email" name="email" placeholder='Email' className='bprder-4 border-b-black-300 p-2' />
+                    <input type="email" name="email" {... formik.getFieldProps('email')}  placeholder='Email' className='border-4 border-b-black-300 p-2' />
+                    {formik.touched.email && formik.errors.email ? (<div className='error'>{formik.errors.email}</div>):null}
                 </div>
                 <div className='flex flex-col py-2'>
-                    <input type="password" name="password"placeholder='Password' className='border-b-black-300 p-2'/>
+                    <input type="password" name="password" {... formik.getFieldProps('password')}  placeholder='Password' className='border-4 border-b-black-300 p-2'/>
+                    {formik.touched.password && formik.errors.password ? (<div className='error'>{formik.errors.password}</div>):null}
                 </div>
 
-                <button className='w-full text-center bg-sec text-main my-4 rounded-xl py-2 font-semibold border hover:bg-transparent hover:border-bg-sec'>Sign In</button>
+                <button type='submit' className='w-full text-center bg-sec text-main my-4 rounded-xl py-2 font-semibold border hover:bg-transparent hover:border-bg-sec'>Sign In</button>
                 
                 <div className='mb-12'>
                     <Link to="/forgotpassword">
@@ -43,8 +70,8 @@ function Signin() {
                 </div>
             </form>
         </div>
-/*     </div>
- */  )
+     </div>
+   )
 }
 
 export default Signin

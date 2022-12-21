@@ -49,7 +49,7 @@ export default function Navbar({ fixed }) {
                     <Link className='lg:px-4 py-2 flex items-center text-2xl uppercase font-bold leading-snug text-main hover:opacity-75' to="/blog">Blog</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className='lg:px-4 py-2 flex items-center text-2xl uppercase font-bold leading-snug text-main hover:opacity-75' to="/">Contact</Link>
+                    <Link className='lg:px-4 py-2 flex items-center text-2xl uppercase font-bold leading-snug text-main hover:opacity-75' to="/contact-us">Contact</Link>
                 </li>
 
                 
