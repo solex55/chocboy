@@ -9,9 +9,3 @@ button.disabled{
     opacity: 0.35;
 }
 
-.overllay{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to bootom, rgba(245, 244, 252, 0.5), rgba(117, 19, 93, 0.7)), url(../../assets/sign.png);
-    background-size: cover;
-}
