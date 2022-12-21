@@ -89,7 +89,7 @@ function Contact() {
                                         <ErrorMessage name="lname" component="span" className="error" />
                                     </div>                                    
 
-                                    <button type="submit" disabled={!(dirty && isValid)} className='w-full sm:w-1/5 text-center bg-main text-sec my-4 rounded-xl py-2 font-semibold border hover:bg-transparent hover:border-bg-sec'>Sign Up</button>
+                                    <button type="submit" style={{float:'right'}} disabled={!(dirty && isValid)} className='w-full sm:w-1/5 text-center bg-main text-sec my-4 rounded-xl py-2 font-semibold border hover:bg-transparent hover:border-bg-sec'>Sign Up</button>
                                 
                                     
                                 </Form>
