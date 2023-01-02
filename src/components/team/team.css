@@ -5,6 +5,7 @@
 .teamline{
     position: absolute;
     top: 30%;
+    width: 100%;
 }
 .team_member_card{
     position: absolute;

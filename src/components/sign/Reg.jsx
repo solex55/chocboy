@@ -135,7 +135,7 @@ function Reg() {
                             <button type="submit" disabled={!(dirty && isValid)} className='w-full text-center bg-sec text-main my-4 rounded-xl py-2 font-semibold border hover:bg-transparent hover:border-bg-sec'>Sign Up</button>
                         
                             <div> 
-                                    <p className='text-xl text-center'>Already a member? <Link to="/login"><span className='text-sec'>Sign In Now</span></Link></p>
+                                  <p className='text-xl text-center'>Already a member? <Link to="/login"><span className='text-sec'>Sign In Now</span></Link></p>
                             </div>
                         </Form>
                     </div>

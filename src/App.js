@@ -14,6 +14,9 @@ import Tuffles from './pages/Tuffles';
 import Breadstick from './pages/Breadstick';
 import Cookie from './pages/Cookie';
 import Contactus from './pages/Contactus';
+import Profile from './pages/Profile';
+import OtPassword from './pages/OtPassword';
+import Resetpassword from './pages/Resetpassword';
 import {Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {
@@ -36,6 +39,9 @@ function App() {
           <Route path="/chocboy-cookies" element={<Cookie />} />
           <Route path="/chocboy-breadstick" element={<Breadstick />} />
           <Route path="/contact-us" element={<Contactus />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/otp-password" element={<OtPassword />} />
+          <Route path="/reset-password" element={<Resetpassword />} />
         </Routes>
       </BrowserRouter>
     </>

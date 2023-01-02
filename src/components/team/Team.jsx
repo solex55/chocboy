@@ -15,24 +15,28 @@ function Team() {
             <img src={teamline} alt="teamline" className='teamline' />
             <div className='team_member_card flex flex-col lg:flex-row'>
                 <div className='flex gap-4 w-full'>
-                  <div className='flex flex-col gap-2 pb-8'>
-                    <img src={Oluwajare} alt="" className="pb-2" /> 
-                    <p>Founder</p>
+                  <div className='flex flex-col transform -translate-y-8'>
+                    <img src={Oluwajare} alt="Oluwajare" className="" /> 
+                    <p className="font-bold text-lg">Oluwajare Fola Bolumole</p>
+                    <p className="text-main">Founder</p>
                   </div>
-                  <div className='flex flex-col gap-2 pt-8'>
-                    <img src={Otomudo} alt="" className="pb-2" /> 
-                    <p>Lorem ipsum dolor sit.</p>
+                  <div className='flex flex-col transform translate-y-0 sm:translate-y-8'>
+                    <img src={Wuraola} alt="Wuraola" className="pb-2" /> 
+                    <p className="font-bold text-lg">Wuraola Olasupo</p>
+                    <p className="text-main">Head of Finance</p>
                   </div>
                 </div>
 
                 <div className='flex gap-4 w-full'>
-                  <div className='flex flex-col gap-2 pb-8'>
-                    <img src={Oluwafunmilayo} alt="" className="pb-2" /> 
-                    <p>Lorem ipsum dolor sit.</p>
+                  <div className='flex flex-col transform -translate-y-8'>
+                    <img src={Otomudo} alt="Oluwafunmilayo" className="pb-2" /> 
+                    <p className="font-bold text-lg">Gloria Otomudo</p>
+                    <p className="text-main">General Manager</p>
                   </div>
-                  <div className='flex flex-col gap-2 pt-8'>
-                    <img src={Wuraola} alt="" className="pb-2" /> 
-                    <p>Lorem ipsum dolor sit.</p>
+                  <div className='flex flex-col transform translate-y-0 sm:translate-y-8'>
+                    <img src={Oluwafunmilayo} alt="Otomudo" className="pb-2" /> 
+                    <p className="font-bold text-lg">Oluwafunmilayo Adekunle</p>
+                    <p className="text-main">Haed of Business development</p>
                   </div>
                 </div>
               </div>
