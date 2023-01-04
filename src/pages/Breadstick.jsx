@@ -3,10 +3,17 @@ import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import breadstickhero from '../assets/breadstickhero.png'
 import mixa from '../assets/mixa.png'
+import { Helmet } from 'react-helmet'
 
 function Breadstick() {
   return (
     <div>
+        <Helmet>
+        <title>Breadstick | chocboy!</title>
+        <meta name="description" content='Order Chocboy Mini Breadstick' />
+        <meta name='keyword' content='chocboy! chocolate nigeria breadstick order' />
+        <link rel='canonical' href='/chocboy-breadstick' />
+      </Helmet>
         <Header heroText="Chocboy Mini Breadstick" 
             img={breadstickhero}
         />
@@ -16,7 +23,7 @@ function Breadstick() {
         <div className="flex flex-col lg:flex-row mb-20 gap-4">
             <div className='w-full lg:w-1/2'>
                 <h4 className='font-bold pb-4'>Ingredients</h4>
-                <ul className="space-y-4">
+                <ul className="space-y-4 list-disc">
                     <li>                210 grams Bread (strong) flour</li>
                     <li>                90 grams Cake flour</li>
                     <li>                60 grams Sugar</li>
@@ -38,7 +45,7 @@ function Breadstick() {
 
         <div>
             <h4 className='font-bold pb-4'>Instructions</h4>
-            <ol className='space-y-4 text-justify'>
+            <ol className='space-y-4 text-justify list-decimal'>
                 <li>            Measure the ingredients out accurately.</li>
                 <li>            Activate the yeast in 30℃ warm water. Add the powder ingredients, sugar and salt to a bowl and mix.</li>
                 <li>            Make a well in the middle of the dry ingredients and add the yeast mixture with the milk and egg mixture. Mix well until the dough forms a ball (don't add the butter yet).</li>

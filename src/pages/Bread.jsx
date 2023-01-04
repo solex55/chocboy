@@ -4,9 +4,17 @@ import Footer from '../components/footer/Footer'
 import shophero from '../assets/shophero.png'
 import sugar from '../assets/sugar.png'
 import salt from '../assets/salt.png'
+import { Helmet } from 'react-helmet'
+
 function Bread() {
   return (
     <div>
+        <Helmet>
+        <title>Bread | chocboy!</title>
+        <meta name="description" content='Order Chocboy Bread' />
+        <meta name='keyword' content='chocboy! chocolate nigeria bread order' />
+        <link rel='canonical' href='/chocboy-bread' />
+      </Helmet>
         <Header 
             heroText="Chocboy Bread" 
             img={shophero}
@@ -18,7 +26,7 @@ function Bread() {
         <div className="flex flex-col lg:flex-row mb-8 lg:mb-20 gap-4">
             <div className='w-full lg:w-1/2'>
                 <h3 className='font-bold pb-4'>Ingridents</h3>
-                <ol className="space-y-4">
+                <ol className="space-y-4 list-disc">
                     <li>100 grams flour</li>
                     <li>100 grams strong flour</li>
                     <li>1 tsp. honey</li>
@@ -41,7 +49,7 @@ function Bread() {
 
         <div>
         <h3 className='font-bold pb-4'>Instructions</h3>
-            <ol className="space-y-4">
+            <ol className="space-y-4 list-decimal">
                 <li>
                     Dissolve the yeast in the warm milk with the honey and 1 tablespoon of flour, stir into a rather liquid batter and let it proof, covered, for 30 minutes.
                 </li>

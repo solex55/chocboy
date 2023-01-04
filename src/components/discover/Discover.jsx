@@ -1,5 +1,7 @@
 import React from 'react'
 import './discover.css'
+import { Link } from 'react-router-dom'
+
 function Discover() {
   return (
     <div className='my-32 w-full '>
@@ -21,9 +23,12 @@ function Discover() {
                       <div className='relative w-full h-full overlay-des rounded-lg'>
                         <div className='flex flex-col gap-8 px-4 lg:px-4 absolute top-1/2 left-0 justify-center items-center'>
                           <p className='text-xl lg:text-2xl justify-center text-center font-bold'>OUR PROCESS</p>
+                          <Link to="/shop">
                           <button className='inline-flex items-center justify-center px-4 lg:px-8 py-3 text-xl lg:text-3xl font-bold text-center bg-sec text-main rounded-lg '>
                               Discover
                           </button>
+                          </Link>
+                          
                           
                         </div>
                       </div>
@@ -32,9 +37,12 @@ function Discover() {
                       <div className='relative w-full h-full overlay-des rounded-lg'>
                         <div className='flex flex-col gap-8 px-4 lg:px-4  absolute top-1/2 left-0 justify-center items-center'>
                           <p className='text-xl lg:text-2xl justify-center text-center font-bold'>OUR RECIPES </p>
+                          <Link to="/products">
                           <button className='inline-flex items-center justify-center px-4 lg:px-8 py-3 text-xl lg:text-3xl font-bold text-center bg-sec text-main rounded-lg'>
                               Discover
                           </button>
+                          </Link>
+                          
                           
                         </div>
                       </div>

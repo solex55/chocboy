@@ -3,9 +3,17 @@ import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import brownieshero from '../assets/brownieshero.png'
 import egg from '../assets/egg.png'
+import { Helmet } from 'react-helmet'
+
 function Brownies() {
   return (
     <div>
+        <Helmet>
+        <title>Brownies | chocboy!</title>
+        <meta name="description" content='Make 3 Ingredient Chocboy Brownies in minutes featuring a fudgy texture and gorgeous chocolatey flavor.' />
+        <meta name='keyword' content='chocboy! chocolate nigeria bread order' />
+        <link rel='canonical' href='/chocboy-brownies' />
+      </Helmet>
         <Header 
             heroText="Chocboy Brownies" 
             img={brownieshero}
@@ -20,7 +28,7 @@ function Brownies() {
                 <div className='w-full lg:w-1/2 '>
                     <h4 className='font-bold pb-4'>Ingridents</h4>
                     <div>
-                        <ol className="space-y-8">
+                        <ol className="space-y-8 list-disc">
                             <li>1 cup (240g) Chocboy</li>
                             <li>
                                 2 eggs (or egg substitutes for brownies)
@@ -36,7 +44,7 @@ function Brownies() {
 
             <div className='pb-8'>
                 <h4 className='font-bold pb-4'>Instruction</h4>
-                <ol className='space-y-8'>
+                <ol className='space-y-8 list-decimal'>
                     <li>
                         Put the Chocboy Chocolate Spread, eggs and flour in a large bowl and mix until all ingredients are combined. The batter should be thick and shiny.
                     </li>

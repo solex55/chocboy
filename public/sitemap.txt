@@ -1,0 +1,16 @@
+http://chocboy.netlify.app/
+http://chocboy.netlify.app/about
+http://chocboy.netlify.app/products
+http://chocboy.netlify.app/chocparty
+http://chocboy.netlify.app/blog
+http://chocboy.netlify.app/loginforgotpassword
+http://chocboy.netlify.app/register
+http://chocboy.netlify.app/profile
+http://chocboy.netlify.app/chocboy-brownies
+http://chocboy.netlify.app/chocboy-bread
+http://chocboy.netlify.app/chocboy-tuffles
+http://chocboy.netlify.app/chocboy-cookies
+http://chocboy.netlify.app/chocboy-breadstick
+http://chocboy.netlify.app/contact-us
+http://chocboy.netlify.app/otp-password
+http://chocboy.netlify.app/reset-password
