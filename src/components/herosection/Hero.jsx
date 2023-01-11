@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Heroimg from '../../assets/navbar-img.png';
+import Navimghero from '../../assets/nav3.png';
 import Heromain from '../../assets/heromain.png';
 import Nav from '../nav/Nav'
 import "./hero.css"
@@ -11,6 +12,9 @@ function hero() {
     <div className='relative w-full h-screen '>
         <div className='absolute z-20 top-0 left-0 h-52 lg:h-fit w-full'>
             <img src={Heroimg} alt="hero-pic" className='h-full w-full'/>
+        </div>
+        <div className='absolute z-10 top-0 left-0 h-5/6 lg:h-full w-full'>
+            <img src={Navimghero} alt="hero-pic" className='h-full w-full'/>
         </div>
 
         <Nav />

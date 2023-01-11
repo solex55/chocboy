@@ -12,7 +12,7 @@ function Shop() {
     <title>Shop | chocboy!</title>
     <meta name="description" content='Shop' />
     <meta name='keyword' content='chocboy! chocolate nigeria order Shop ' />
-    <link rel='canonical' href='/Shop' />
+    <link rel='canonical' href='/shop' />
     </Helmet>
         <Header 
           heroText="Shop"

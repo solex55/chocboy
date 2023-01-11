@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook, FaTwitter, FaHome, FaLinkedin, FaInstagram, FaMailBulk, FaPhone} from 'react-icons/fa'
+import {FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaMailBulk, FaPhone} from 'react-icons/fa'
 
 
 function footer() {
@@ -14,6 +14,10 @@ function footer() {
                 <div class="footer_logo">
                     <h3 className="text-3xl font-bold sm:text-3xl lg:text-5xl pb-4">Contact Us</h3>
                 </div>
+                
+                <hr />
+                
+                <div class="footer_sm text-center py-4 lg:py-8 px-4 sm:px-16 text-md">
                 <div class="footer_links flex justify-center items-center pb-4 space-x-4 md:space-x-8 lg:space-x-16">
                     <FaMailBulk />
                     <FaPhone />
@@ -21,11 +25,8 @@ function footer() {
                     <FaTwitter />
                     <FaLinkedin />
                     <FaInstagram />
-                </div>
-                <hr />
-                <div class="footer_sm text-center py-4 lg:py-8 px-4 sm:px-16 text-md">
-                    <div className='pb-4 lg:pb-4 flex justify-center items-center text-center'><FaHome /></div>
-                    <p className='text-md lg:text-3xl'>Block A Unit 5 Technology Incubation Centre Beside Oyo State Permanent Trade Fair Complex EXPOYO Off Oyo Road Ibadan.</p>
+                </div>                    
+                <p className='text-md lg:text-3xl'>Block A Unit 5 Technology Incubation Centre Beside Oyo State Permanent Trade Fair Complex EXPOYO Off Oyo Road Ibadan.</p>
                 </div>
             </div>
 
