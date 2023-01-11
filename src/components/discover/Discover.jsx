@@ -17,7 +17,7 @@ function Discover() {
               </div>
               
            
-              <div className='flex justify-center mx-auto space-x-4 mt-24 '>
+              <div className='flex justify-center mx-auto space-x-4 mt-24 xl:mt-96'>
                   
                   <div className="process h-96 w-60 rounded-lg ">
                       <div className='relative w-full h-full overlay-des rounded-lg'>

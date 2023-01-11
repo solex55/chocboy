@@ -23,7 +23,34 @@ const onSubmit= async (values, actions) => {
    })
 function Contact() {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-2 h-full w-full'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 h-full w-full '>
+        <div className='h-full w-full mx-auto p-4'>
+            <div className='pb-8'>
+                <h3 className='text-4xl font-bold text-white py-6 pb-4'>Dont know where to start?</h3>
+                <p className='text-lg text-white'>Our amazing customer care officials are always ready to help</p>                    
+            </div>
+
+            <div className='flex gap-4 pb-16'>
+                <div>
+                    <img src={smiley} alt="" className='rounded-full shawdow-lg max-w-full border-none align-middle'/>
+                </div>
+                <div className='gap-4'>
+                    <h4 className='font-bold text-white'>Customer Support</h4>
+                    <p>+234 9067939532</p>
+                </div>
+            </div>
+            
+            <div className='flex gap-4'>
+                <div>
+                    <img src={smiley} alt="" className='rounded-full shawdow-lg max-w-full border-none align-middle'/>
+                </div>
+                <div className='gap-4'>
+                    <h4 className='font-bold text-'>Whatsapp Support</h4>
+                    <p>+234 9067793927</p>
+                </div>
+            </div>
+        </div>
+        
         <div className=' h-full w-full'>
             
 
@@ -39,8 +66,8 @@ function Contact() {
 
                         <div className=' flex flex-col justify-center'>
                                 <Form className="max-w-[800px] w-full mx-auto p-4">
-                                    <h3 className='text-4xl font-bold text-main py-6 pb-4'>Reach out to us!</h3>
-                                    <p className='text-lg text-main'>Got a question about Chocboy? Want to partner with us? Have any suggestions, or just want to say Hi?</p>
+                                    <h3 className='text-4xl font-bold text-white py-6 pb-4'>Reach out to us!</h3>
+                                    <p className='text-lg text-white'>Got a question about Chocboy? Want to partner with us? Have any suggestions, or just want to say Hi?</p>
                                     
                                     
                                     <div className="flex flex-col py-2">
@@ -89,7 +116,7 @@ function Contact() {
                                         <ErrorMessage name="lname" component="span" className="error" />
                                     </div>                                    
 
-                                    <button type="submit" style={{float:'right'}} disabled={!(dirty && isValid)} className='w-full sm:w-1/5 text-center bg-main text-sec my-4 rounded-xl py-2 font-semibold border hover:bg-transparent hover:border-bg-sec'>Sign Up</button>
+                                    <button type="submit" style={{float:'right'}} disabled={!(dirty && isValid)} className='w-full sm:w-1/5 text-center cursor-pointer bg-sec text-main my-4 rounded-xl py-2 font-semibold hover:border hover:bg-transparent hover:text-sec '>Submit</button>
                                 
                                     
                                 </Form>
@@ -102,32 +129,7 @@ function Contact() {
 
 
 
-        <div className='h-full w-full mx-auto p-4'>
-            <div className='pb-8'>
-                <h3 className='text-4xl font-bold text-main py-6 pb-4'>Dont know where to start?</h3>
-                <p className='text-lg text-main'>Our amazing customer care officials are always ready to help</p>                    
-            </div>
-
-            <div className='flex gap-4 pb-16'>
-                <div>
-                    <img src={smiley} alt="" className='rounded-full shawdow-lg max-w-full border-none align-middle'/>
-                </div>
-                <div className='gap-4'>
-                    <h4 className='font-bold text-'>Customer Support</h4>
-                    <p>+234 9067939532</p>
-                </div>
-            </div>
-            
-            <div className='flex gap-4'>
-                <div>
-                    <img src={smiley} alt="" className='rounded-full shawdow-lg max-w-full border-none align-middle'/>
-                </div>
-                <div className='gap-4'>
-                    <h4 className='font-bold text-'>Customer Support</h4>
-                    <p>+234 9067793927</p>
-                </div>
-            </div>
-        </div>
+        
     </div>
   )
 }

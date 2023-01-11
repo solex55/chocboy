@@ -8,12 +8,12 @@ import './team.css'
 
 function Team() {
   return (
-    <div className='text-center my-20 h-screen'>
+    <div className='text-center mt-16 mb-16 h-screen'>
         <p  className=' font-bold text-3xl text-main'>Our Team</p>
 
         <div className='team_container'>
             <img src={teamline} alt="teamline" className='teamline' />
-            <div className='team_member_card flex flex-col lg:flex-row'>
+            <div className='team_member_card flex flex-col lg:flex-row '>
                 <div className='flex gap-4 w-full'>
                   <div className='flex flex-col transform -translate-y-8'>
                     <img src={Oluwajare} alt="Oluwajare" className="" /> 
