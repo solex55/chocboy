@@ -35,7 +35,7 @@ function Feature() {
     </div>
 
 
-    <div className='py-16 mx-8 mb-16 lg:mx-24 '>
+    <div className='py-16 mx-8 lg:mx-24 '>
         <h3 className='text-sub text-center text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl mb-8'>ChocParty</h3>
 
         <div className='flex justify-between gap-8  items-center mb-8'>

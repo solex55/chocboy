@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Discover() {
   return (
-    <div className='my-32 w-full '>
+    <div className='mb-44 sm:mb-80 lg:mb-64 w-full '>
         <h2 className=' text-sub text-center mb-8 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl'>Discover More</h2>
         
         <div className=' w-full h-screen bg-no-repeat bg-cover bg-center object-cover grads' >
@@ -17,7 +17,7 @@ function Discover() {
               </div>
               
            
-              <div className='flex justify-center mx-auto space-x-4 mt-24 xl:mt-96'>
+              <div className='flex justify-center mx-auto space-x-4 mt-24 xl:mt-36'>
                   
                   <div className="process h-96 w-60 rounded-lg ">
                       <div className='relative w-full h-full overlay-des rounded-lg'>

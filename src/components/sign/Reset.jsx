@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import regpic from '../../assets/sign.png';
+import regpic from '../../assets/signn.png';
 import { Link } from 'react-router-dom'
 import * as Yup from 'yup'
 import './signin.css'

@@ -35,7 +35,7 @@ function Party() {
                 <img src={ticket} alt="" className='w-full rounded h-full'/>
             </div>
             <div className='flex flex-col w-full lg:w-1/2 justify-center'>
-                <input type="text" name="ticket" id="ticket"placeholder='Enter Your Name'  className='form-control mb-4 block w-full  bg-clip-padding border border-solid border-gray-400 transition ease-in-out m-0  px-4 py-2 text-xl font-normal text-gray-700 bg-white rounded mb-2 focus:text-gray-700 focus:border-bg-main' />
+                <input type="text" name="ticket" id="ticket"placeholder='Enter Your Name'  className='form-control mb-4 block w-full  bg-clip-padding border border-solid border-gray-400 transition ease-in-out m-0  px-4 py-2 text-xl font-normal text-gray-700 bg-white rounded focus:text-gray-700 focus:border-bg-main' />
                 <input type="submit" value="Ticket" className='bg-sec text-main text-2xl rounded-md cursor-pointer px-4 py-2 font-semibold'  />
             </div>
         </div>

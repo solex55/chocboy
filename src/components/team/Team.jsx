@@ -17,12 +17,12 @@ function Team() {
                 <div className='flex gap-4 w-full'>
                   <div className='flex flex-col transform -translate-y-8'>
                     <img src={Oluwajare} alt="Oluwajare" className="" /> 
-                    <p className="font-bold text-lg">Oluwajare Fola Bolumole</p>
+                    <p className="font-bold text-lg text-sub">Oluwajare Fola Bolumole</p>
                     <p className="text-main">Founder</p>
                   </div>
                   <div className='flex flex-col transform translate-y-0 sm:translate-y-8'>
                     <img src={Wuraola} alt="Wuraola" className="pb-2" /> 
-                    <p className="font-bold text-lg">Wuraola Olasupo</p>
+                    <p className="font-bold text-lg text-sub">Wuraola Olasupo</p>
                     <p className="text-main">Head of Finance</p>
                   </div>
                 </div>
@@ -30,12 +30,12 @@ function Team() {
                 <div className='flex gap-4 w-full'>
                   <div className='flex flex-col transform -translate-y-8'>
                     <img src={Otomudo} alt="Oluwafunmilayo" className="pb-2" /> 
-                    <p className="font-bold text-lg">Gloria Otomudo</p>
+                    <p className="font-bold text-lg text-sub">Gloria Otomudo</p>
                     <p className="text-main">General Manager</p>
                   </div>
                   <div className='flex flex-col transform translate-y-0 sm:translate-y-8'>
                     <img src={Oluwafunmilayo} alt="Otomudo" className="pb-2" /> 
-                    <p className="font-bold text-lg">Oluwafunmilayo Adekunle</p>
+                    <p className="font-bold text-lg text-sub">Oluwafunmilayo Adekunle</p>
                     <p className="text-main">Haed of Business development</p>
                   </div>
                 </div>

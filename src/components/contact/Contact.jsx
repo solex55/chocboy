@@ -26,7 +26,7 @@ function Contact() {
     <div className='grid grid-cols-1 sm:grid-cols-2 h-full w-full '>
         <div className='h-full w-full mx-auto p-4'>
             <div className='pb-8'>
-                <h3 className='text-4xl font-bold text-white py-6 pb-4'>Dont know where to start?</h3>
+                <h3 className='text-2xl font-bold text-white py-6 pb-4'>Dont know where to start?</h3>
                 <p className='text-lg text-white'>Our amazing customer care officials are always ready to help</p>                    
             </div>
 
@@ -66,8 +66,8 @@ function Contact() {
 
                         <div className=' flex flex-col justify-center'>
                                 <Form className="max-w-[800px] w-full mx-auto p-4">
-                                    <h3 className='text-4xl font-bold text-white py-6 pb-4'>Reach out to us!</h3>
-                                    <p className='text-lg text-white'>Got a question about Chocboy? Want to partner with us? Have any suggestions, or just want to say Hi?</p>
+                                    <h3 className='text-2xl font-bold text-white py-6 pb-4'>Reach out to us!</h3>
+                                    <p className='text-lg text-white pb-4'>Got a question about Chocboy? Want to partner with us? Have any suggestions, or just want to say Hi?</p>
                                     
                                     
                                     <div className="flex flex-col py-2">

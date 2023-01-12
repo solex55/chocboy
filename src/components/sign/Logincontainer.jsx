@@ -1,5 +1,5 @@
 import React from 'react'
-import regpic from '../../assets/sign.png';
+import regpic from '../../assets/signn.png';
 import Signin from './Signin'
 import './signin.css'
 
