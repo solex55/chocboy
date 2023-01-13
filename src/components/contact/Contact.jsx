@@ -78,6 +78,7 @@ function Contact() {
                                         label="Full Name"
                                         as={TextField}
                                         color="warning"
+                                        sx={{ fieldset: {borderColor: "white"}, }}
                                         className={errors.fname && touched.fname ? 
                                         "input-error" : null}
                                         />
@@ -94,6 +95,7 @@ function Contact() {
                                         label="Email"
                                         as={TextField}
                                         color="warning"
+                                        sx={{ fieldset: {borderColor: "white"}, }}
                                         className={errors.email && touched.email ? 
                                         "input-error" : null}
                                         />
@@ -110,6 +112,7 @@ function Contact() {
                                         multiline
                                         rows={6}
                                         color="warning"
+                                        sx={{ fieldset: {borderColor: "white"}, }}
                                         className={errors.lname && touched.lname ? 
                                         "input-error" : null}
                                         />

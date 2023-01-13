@@ -15,7 +15,7 @@ function footer() {
             <Contact />
             <div className="footer_main  bg-foot flex flex-col text-center px-16 lg:px-24 item-center ">
                 <div className="footer_logo">
-                    <h3 className="text-3xl font-bold sm:text-3xl lg:text-5xl pb-4">Contact Us</h3>
+                    <h3 className="text-3xl font-bold  lg:text-4xl pb-4">Contact Us</h3>
                 </div>
                 
                 <hr />
@@ -29,7 +29,7 @@ function footer() {
                     <FaLinkedin />
                     <FaInstagram />
                 </div>                    
-                <p className='text-md lg:text-3xl'>Block A Unit 5 Technology Incubation Centre Beside Oyo State Permanent Trade Fair Complex EXPOYO Off Oyo Road Ibadan.</p>
+                <p className='text-md lg:text-2xl'>Block A Unit 5 Technology Incubation Centre Beside Oyo State Permanent Trade Fair Complex EXPOYO Off Oyo Road Ibadan.</p>
                 </div>
             </div>
 
