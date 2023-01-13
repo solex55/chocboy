@@ -1,27 +1,39 @@
 import React from 'react'
-import Heromain from '../../assets/heromain.jpg';
+
+import { Link } from 'react-router-dom'
 import Heroimg from '../../assets/navbar-img.png';
+import Navimghero from '../../assets/nav3.png';
+import Heromain from '../../assets/heromain.png';
+import Nav from '../nav/Nav'
+import "../herosection/hero.css"
 
 function Heroimage() {
   return (
-        <section class="bg-white dark:bg-gray-900">
-            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-                <div class="mr-auto place-self-center lg:col-span-7">
-                    <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Payments tool for software companies</h1>
-                    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
-                    
-                    <a href="https://google.com" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                        Speak to Sales
-                    </a> 
-                </div>
-                <div class="mt-0 col-span-5 ">
-                    <img src={Heromain} alt="mockup" />
-                </div>                
+    <div className='relative w-full h-screen '>
+    <div className='absolute z-20 top-0 left-0 h-52 lg:h-fit w-full'>
+        <img src={Heroimg} alt="hero-pic" className='h-full w-full'/>
+    </div>
+    <div className='absolute z-10 top-0 left-0 h-5/6 lg:h-full w-full'>
+        <img src={Navimghero} alt="hero-pic" className='h-full w-full'/>
+    </div>
+
+    <Nav />
+
+    <div className='flex absolute  herosection   items-center justify-between gap-12 z-30 px-8 md:px-12  py-12 mb-24 text-main flex-col xl:flex-row'> 
+        <div className='flex flex-col gap-4 w-full xl:w-3/5'>
+              <h1 className='text-4xl lg:text-6xl mb-4 max-w-xl'>Bringing <span className='text-4xl lg:text-6xl font-bold'>smiles</span> with the taste of <span className='text-6xl lg:text-6xl font-bold'>premium chocolate</span></h1>
+            <div className='w-full hero'>
+              <Link to="/shop">
+              <button className='px-2 lg:px-4 py-4 w-36 lg:w-72 text-center text-sec rounded-md shadow-md text-sm lg:text-xl font-bold' style={{background: "linear-gradient(180deg, #79372A 0%, #39170f 100%)"}}>Shop Now</button>
+
+              </Link>
             </div>
-
-            <img src={Heroimg} alt="hero-pic"/>
-
-        </section>
+        </div>
+        <div className='w-full xl:w-2/5'>
+            <img src={Heromain} alt="hero-pic"  className='object-contain w-full'/>
+        </div>
+    </div>
+    </div>
   )
 }
 

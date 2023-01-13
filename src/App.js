@@ -18,6 +18,7 @@ import Profile from './pages/Profile';
 import OtPassword from './pages/OtPassword';
 import Resetpassword from './pages/Resetpassword';
 import Cart from './pages/Cart';
+import Homepage from './pages/Homepage';
 import {Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
           <Route path="/otp-password" element={<OtPassword />} />
           <Route path="/reset-password" element={<Resetpassword />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/home" element={<Homepage />} />
         </Routes>
       </BrowserRouter>
     </>

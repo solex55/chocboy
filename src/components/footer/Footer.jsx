@@ -9,7 +9,7 @@ function footer() {
 
 /*     <footer className='w-full h-screen  bg-no-repeat bg-cover bg-center bg-footer-pat relative mt-16 object-cover'>
  */    
-    <footer className='w-full bg-foot h-fit relative mt-16 '>
+    <footer className='w-full bg-foot h-fit relative mt-16 ' style={{background: "linear-gradient(180deg, #79372A 0%, #39170f 100%)"}}>
         <div className='absolute bg-foot  top-1/2 mx-auto w-full justify-center items-center'>
         <div className="footer_content bg-foot  flex flex-col z-3 text-white justify-center items-center">
             <Contact />

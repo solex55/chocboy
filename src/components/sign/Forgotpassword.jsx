@@ -70,7 +70,7 @@ function Forgotpassword() {
                             <div> 
                                   <p className='text-md lg:text-xl text-center'>Don't have an account? <Link to="/register"><span className='text-sec'>Sign Up Now</span></Link></p>
                                   <div className='flex gap-4 text-sm text-gray-500 items-center justify-center text-center'>
-                                        <p>Privacy</p>
+                                        <p>Privacy</p> |
                                         <p>Terms &#38; Conditions</p>
                                     </div>
                             </div>

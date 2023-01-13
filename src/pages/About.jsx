@@ -3,7 +3,7 @@ import Header from '../components/header/Header'
 import Abouttext from '../components/aboutText/Abouttext'
 import Team from '../components/team/Team'
 import Footer from '../components/footer/Footer'
-import abouthero from '../assets/about.png'
+import abouthero from '../assets/chocabt.jpg'
 import { Helmet } from 'react-helmet'
 export default function About() {
   return (

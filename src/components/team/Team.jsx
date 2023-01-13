@@ -17,7 +17,7 @@ function Team() {
                 <div className='flex gap-4 w-full'>
                   <div className='flex flex-col transform -translate-y-8'>
                     <img src={Oluwajare} alt="Oluwajare" className="" /> 
-                    <p className="font-bold text-lg text-sub">Oluwajare Fola Bolumole</p>
+                    <p className="font-bold text-lg text-sub">Jare Fola Bolumole</p>
                     <p className="text-main">Founder</p>
                   </div>
                   <div className='flex flex-col transform translate-y-0 sm:translate-y-8'>

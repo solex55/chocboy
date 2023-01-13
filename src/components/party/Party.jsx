@@ -1,19 +1,19 @@
 import React from 'react'
-import partychoc from '../../assets/party222.png';
+import partychoc from '../../assets/chocboyparty.png';
 import partychoc1 from '../../assets/image14.png';
-import partychoc2 from '../../assets/image15.png';
-import partychoc3 from '../../assets/image16.png';
-import partychoc4 from '../../assets/image17.png';
-import partychoc5 from '../../assets/image18.png';
-import partychoc6 from '../../assets/image19.png';
+import partychoc2 from '../../assets/choc15.png';
+import partychoc3 from '../../assets/choc16.png';
+import partychoc4 from '../../assets/choc17.png';
+import partychoc5 from '../../assets/choc18.png';
+import partychoc6 from '../../assets/choc19.png';
 import ticket from '../../assets/image7.png';
 
 function Party() {
   return (
     <div className='py-16 mx-8 lg:mx-24 '>
         <div>
-            <h3 className='text-xl lg:4xl text-main text-center pb-8 font-semibold'>ChocParty 2022</h3>
-            <div className='pb-8 w-full h-56 lg:h-full'>
+            <h3 className='text-2xl sm:text-4xl text-main text-center pb-8 font-semibold'>ChocParty 2022</h3>
+            <div className='pb-8 w-full h-56 sm:h-full lg:h-[500px]'>
                 <img src={partychoc} alt="partychocboy" className='h-full w-full'/>
             </div>
         </div>
