@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Heroimg from '../../assets/navbar-img.png';
 import Navimghero from '../../assets/nav3.png';
 import Heromain from '../../assets/heromain.png';
-import Nav from '../nav/Nav'
+import Navbar from '../navbar/Navbar'
 import "../herosection/hero.css"
 
 function Heroimage() {
@@ -17,7 +17,7 @@ function Heroimage() {
         <img src={Navimghero} alt="hero-pic" className='h-full w-full'/>
     </div>
 
-    <Nav />
+    <Navbar />
 
     <div className='flex absolute  herosection   items-center justify-between gap-12 z-30 px-8 md:px-12  py-12 mb-24 text-main flex-col xl:flex-row'> 
         <div className='flex flex-col gap-4 w-full xl:w-3/5'>

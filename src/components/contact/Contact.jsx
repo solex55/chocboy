@@ -77,8 +77,18 @@ function Contact() {
                                         id="fname"
                                         label="Full Name"
                                         as={TextField}
-                                        color="warning"
-                                        sx={{ fieldset: {borderColor: "white"}, }}
+/*                                         color="warning"
+ */                                      variant="outlined"
+                                        inputProps={{ style: {color: "white"} }}
+                                        sx={{ 
+                                            fieldset: {borderColor: "white"}, 
+                                            label: {color:"white"}, 
+                                            "& .MuiOutlinedInput-root.Mui-focused":{
+                                                "& > fieldset": {
+                                                    borderColor: "white"
+                                                }
+                                            }
+                                        }}
                                         className={errors.fname && touched.fname ? 
                                         "input-error" : null}
                                         />
@@ -94,8 +104,17 @@ function Contact() {
                                         id="email"
                                         label="Email"
                                         as={TextField}
-                                        color="warning"
-                                        sx={{ fieldset: {borderColor: "white"}, }}
+                                        variant="outlined"
+                                        inputProps={{ style: {color: "white"} }}
+                                        sx={{ 
+                                            fieldset: {borderColor: "white"}, 
+                                            label: {color:"white"}, 
+                                            "& .MuiOutlinedInput-root.Mui-focused":{
+                                                "& > fieldset": {
+                                                    borderColor: "white"
+                                                }
+                                            }
+                                        }}
                                         className={errors.email && touched.email ? 
                                         "input-error" : null}
                                         />
@@ -111,8 +130,17 @@ function Contact() {
                                         as={TextField}
                                         multiline
                                         rows={6}
-                                        color="warning"
-                                        sx={{ fieldset: {borderColor: "white"}, }}
+                                        variant="outlined"
+                                        inputProps={{ style: {color: "white"} }}
+                                        sx={{ 
+                                            fieldset: {borderColor: "white"}, 
+                                            label: {color:"white"}, 
+                                            "& .MuiOutlinedInput-root.Mui-focused":{
+                                                "& > fieldset": {
+                                                    borderColor: "white"
+                                                }
+                                            }
+                                        }}
                                         className={errors.lname && touched.lname ? 
                                         "input-error" : null}
                                         />
