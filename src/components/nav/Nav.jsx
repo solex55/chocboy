@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import choclogo from '../../assets/chocboy-logo.png';
-import cat from '../../assets/shop.png';
+import cat from '../../assets/spdr.png';
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -36,7 +36,7 @@ export default function Navbar({ fixed }) {
             >
               <ul className="flex flex-col lg:flex-row list-none lg:ml-auto justify-center items-center lg:start text-main">
                 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <Link className='lg:px-4 py-2 flex items-center text-2xl uppercase font-bold leading-snug text-main hover:opacity-75 hover:border-bottom' to="/">Home</Link>
                 </li>
                 <li className="nav-item">
@@ -51,9 +51,15 @@ export default function Navbar({ fixed }) {
                 <li className="nav-item">
                     <Link className='lg:px-4 py-2 flex items-center text-2xl uppercase font-bold leading-snug text-main hover:opacity-75' to="/blog">Blog</Link>
                 </li>
-
+ */}
                 
                  <Link to="/login"> 
+                <button className='bg-main hover:border-transparent hover:text-main text-sec py-2 px-4 mx-0 sm:mx-4 mb-2 sm:mb-0  rounded-md z-20'>
+                  Login
+                </button>
+                </Link>
+
+                 <Link to="/register"> 
                 <button className='bg-main hover:border-transparent hover:text-main text-sec py-2 px-4 rounded-md z-20'>
                   Sign up
                 </button>

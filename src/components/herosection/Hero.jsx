@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Heroimg from '../../assets/navbar-img.png';
 import Navimghero from '../../assets/nav4.png';
-import Heromain from '../../assets/heromain.png';
+import Heromain from '../../assets/heromain1.png';
 /* import Nav from '../nav/Nav'
  */import Navbar from '../navbar/Navbar'
 import "./hero.css"
