@@ -1,6 +1,6 @@
 import React from 'react'
 import partychoc from '../../assets/chocboyparty.png';
-import partychoc1 from '../../assets/image14.png';
+import partychoc1 from '../../assets/choc14.png';
 import partychoc2 from '../../assets/choc15.png';
 import partychoc3 from '../../assets/choc16.png';
 import partychoc4 from '../../assets/choc17.png';

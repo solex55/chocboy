@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Link } from 'react-router-dom'
 import Heroimg from '../../assets/navbar-img.png';
 import Navimghero from '../../assets/nav3.png';
@@ -10,10 +9,10 @@ import "../herosection/hero.css"
 function Heroimage() {
   return (
     <div className='relative w-full h-screen '>
-    <div className='absolute z-20 top-0 left-0 h-52 lg:h-fit w-full'>
+    <div className='absolute z-20 top-0 left-0 h-fit w-full'>
         <img src={Heroimg} alt="hero-pic" className='h-full w-full'/>
     </div>
-    <div className='absolute z-10 top-0 left-0 h-5/6 lg:h-full w-full'>
+    <div className='absolute z-10 top-0 left-0 h-full lg:h-full w-full'>
         <img src={Navimghero} alt="hero-pic" className='h-full w-full'/>
     </div>
 
@@ -25,10 +24,10 @@ function Heroimage() {
             <div className='w-full hero'>
               <Link to="/shop">
               <button className='px-2 lg:px-4 py-4 w-36 lg:w-72 text-center text-sec rounded-md shadow-md text-sm lg:text-xl font-bold' style={{background: "linear-gradient(180deg, #79372A 0%, #39170f 100%)"}}>Shop Now</button>
-
               </Link>
             </div>
         </div>
+        
         <div className='w-full xl:w-2/5'>
             <img src={Heromain} alt="hero-pic"  className='object-contain w-full'/>
         </div>

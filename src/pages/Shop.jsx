@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/footer/Footer'
 import Header from '../components/header/Header'
 import Catalogue from '../components/catalogue/Catalogue'
-import shophero from '../assets/shophero.png'
+import shophero from '../assets/shopp.png'
 import { Helmet } from 'react-helmet'
 
 function Shop() {

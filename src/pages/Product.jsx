@@ -4,7 +4,7 @@ import Header from '../components/header/Header'
 /* import HeroImage from '../components/heroimage/Heroimage'
  */import Recipe from '../components/recipe/Recipe'
  import Location from '../components/location/Location'
- import productshero from '../assets/producthero.png'
+ import productshero from '../assets/prohero.png'
  import { Helmet } from 'react-helmet'
 
 function Product() {
