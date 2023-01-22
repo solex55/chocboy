@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/footer/Footer'
 import Header from '../components/header/Header'
+import Cartproducts from '../components/carts/Cartproducts'
 /* import Catalogue from '../components/catalogue/Catalogue'
  */import shophero from '../assets/shophero.png'
 import { Helmet } from 'react-helmet'
@@ -18,7 +19,7 @@ function Cart() {
           heroText="Cart"
           img={shophero} 
         />
-        {/* <Catalogue/> */}
+        <Cartproducts />       
         <Footer />
     </div>
   )
