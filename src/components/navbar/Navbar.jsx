@@ -31,19 +31,19 @@ function Navbar() {
                 <ul className="lg:flex hidden items-center text-main gap-2 ">
                   
                   <li className="nav-item">
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl uppercase font-bold text-main hover:opacity-75 hover:border-bottom' to="/">Home</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold text-main hover:opacity-75 hover:border-bottom' to="/">Home</Link>
                   </li>
                   <li className="nav-item">
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl uppercase font-bold  text-main hover:opacity-75' to="/about">About</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/about">About</Link>
                   </li>
                   <li className="nav-item">
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl uppercase font-bold  text-main hover:opacity-75' to="/products">Products</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/shop">Products</Link>
                   </li>
                   <li className="nav-item">
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl uppercase font-bold  text-main hover:opacity-75' to="/">Recipe</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/recipe">Recipé</Link>
                   </li>
                   <li className="nav-item">
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl uppercase font-bold  text-main hover:opacity-75' to="/blog">Blog</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/blog">Blog</Link>
                   </li>
   
                   
@@ -67,19 +67,19 @@ function Navbar() {
                  <ul className={`lg:hidden  w-full  items-center text-center  bg-sec  duration-500 h-fit absolute top-0 pt-14 ${navbarOpen ? " block" : " hidden"}`}> {/* absolute */}
                   
                   <li>
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl uppercase font-bold text-main hover:opacity-75 hover:border-bottom' to="/">Home</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold text-main hover:opacity-75 hover:border-bottom' to="/">Home</Link>
                   </li>
                   <li>
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl uppercase font-bold  text-main hover:opacity-75' to="/about">About</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/about">About</Link>
                   </li>
                   <li>
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl uppercase font-bold  text-main hover:opacity-75' to="/products">Products</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/shop">Products</Link>
                   </li>
                   <li>
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl uppercase font-bold  text-main hover:opacity-75' to="/">Recipe</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/recipe">Recipé</Link>
                   </li>
                   <li>
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl uppercase font-bold  text-main hover:opacity-75' to="/blog">Blog</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/blog">Blog</Link>
                   </li>
 
                   <div className="lg:hidden flex  justify-center py-7">
