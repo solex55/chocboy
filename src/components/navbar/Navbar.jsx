@@ -40,7 +40,7 @@ function Navbar() {
                       <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/shop">Products</Link>
                   </li>
                   <li className="nav-item">
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/recipe">Recipé</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/recipes">Recipés</Link>
                   </li>
                   <li className="nav-item">
                       <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/blog">Blog</Link>
@@ -76,7 +76,7 @@ function Navbar() {
                       <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/shop">Products</Link>
                   </li>
                   <li>
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/recipe">Recipé</Link>
+                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/recipes">Recipés</Link>
                   </li>
                   <li>
                       <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/blog">Blog</Link>
