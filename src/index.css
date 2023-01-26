@@ -59,3 +59,9 @@
 .bg-overlay {
   background-color: var(--overlay-color);
 }
+
+.auth_layout_bg {
+  background-image: url("./assets/signn.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
