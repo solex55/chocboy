@@ -1,25 +1,25 @@
-import './App.css'
-import Home from './pages/Home';
-import About from './pages/About';
-import Products from './pages/Product';
-import Chocparty from './pages/Chocparty';
-import Shop from './pages/Shop';
-import Blog from './pages/Blog';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Forgotpassword from './pages/Forgot';
-import Brownies from './pages/Brownies';
-import Bread from './pages/Bread';
-import Tuffles from './pages/Tuffles';
-import Breadstick from './pages/Breadstick';
-import Cookie from './pages/Cookie';
-import Contactus from './pages/Contactus';
-import Profile from './pages/Profile';
-import OtPassword from './pages/OtPassword';
-import Resetpassword from './pages/Resetpassword';
-import Cart from './pages/Cart';
-import Homepage from './pages/Homepage';
-import {Routes, Route, BrowserRouter } from 'react-router-dom'
+import "./App.css";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Products from "./pages/Product";
+import Chocparty from "./pages/Chocparty";
+import Shop from "./pages/Shop";
+import Blog from "./pages/Blog";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import Forgotpassword from "./pages/Forgot";
+import Brownies from "./pages/Brownies";
+import Bread from "./pages/Bread";
+import Tuffles from "./pages/Tuffles";
+import Breadstick from "./pages/Breadstick";
+import Cookie from "./pages/Cookie";
+import Contactus from "./pages/Contactus";
+import Profile from "./pages/Profile";
+import OtPassword from "./pages/OtPassword";
+import Resetpassword from "./pages/Resetpassword";
+import Cart from "./pages/Cart";
+import Homepage from "./pages/Homepage";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
