@@ -1,5 +1,4 @@
 import React from "react";
-import "./feature.css";
 import { Link } from "react-router-dom";
 import frame1 from "../../../assets/frame1.png";
 import frame2 from "../../../assets/frame2.png";
@@ -60,7 +59,7 @@ function Feature() {
       </div>
 
       <div className="md:w-[80%] mx-auto">
-        <h3 className="text-sub text-center text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl mb-8">
+        <h3 className="text-sub text-center text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-4xl mb-8">
           ChocParty
         </h3>
 
