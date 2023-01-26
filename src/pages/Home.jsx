@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/home/Hero";
-// import Footer from "../components/footer/Footer";
+import FooterSection from "../components/footer/FooterSection";
 import Feature from "../components/home/featuresection/Feature";
 import { Helmet } from "react-helmet";
 import Discover from "../components/home/discover/Discover";
@@ -22,8 +22,15 @@ function Home() {
       <Hero />
       <Feature />
       <Discover />
-      <ContactUs />
-      {/* <Footer /> */}
+      <div
+        className="text-white"
+        style={{
+          background: "linear-gradient(180deg, #79372A 0%, #39170F 144.87%)",
+        }}
+      >
+        <ContactUs />
+        <FooterSection />
+      </div>
     </div>
   );
 }

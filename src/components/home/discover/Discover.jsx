@@ -40,7 +40,7 @@ function Discover() {
             </Link>
           </div>
         </div>
-        <div className="h-72 md:h-96 shadow-lg w-1/2 md:w-72 rounded-lg process flex flex-col justify-end p-0 py-4 md:p-7">
+        <div className="h-72 md:h-96 shadow-lg w-1/2 md:w-72 rounded-lg recipe flex flex-col justify-end p-0 py-4 md:p-7">
           <div className="text-center">
             <p className="text-white font-semibold mb-2 text-sm md:text-base">
               OUR RECIPE

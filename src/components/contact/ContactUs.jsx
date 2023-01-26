@@ -2,12 +2,7 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <div
-      className="text-white"
-      style={{
-        background: "linear-gradient(180deg, #79372A 0%, #39170F 144.87%)",
-      }}
-    >
+    <div>
       <div className="max-w-[1300px] mx-auto px-5 md:px-20">
         <div className="flex flex-col lg:flex-row gap-10 py-20">
           <div className="w-full lg:w-2/5 mb-16">
