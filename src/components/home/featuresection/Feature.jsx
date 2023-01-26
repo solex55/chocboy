@@ -80,7 +80,7 @@ function Feature() {
           </div>
         </div>
 
-        <p className="text-justify">
+        <p className="text-justify text-sm md:text-base">
           The ChocParty, which was conceived out of the need to provide an
           avenue for families and friends to bond, not just with one another,
           but also with other people, will this year host its 10th consecutive
