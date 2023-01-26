@@ -55,7 +55,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="flex justify-between items-center max-w-[1300px] mx-auto h-[100px] md:h-[130px] px-5 md:px-20">
+    <nav className="flex justify-between items-center relative z-10 max-w-[1300px] mx-auto h-[100px] md:h-[130px] px-5 md:px-20">
       <div>
         <Link to="/">
           <img src={logo} alt="Choco boy logo" className="w-28 md:w-32" />

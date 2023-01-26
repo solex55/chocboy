@@ -1,8 +1,8 @@
 import React from "react";
-import Hero from "../components/herosection/Hero";
-import Feature from "../components/featuresection/Feature";
-import Discover from "../components/discover/Discover";
-import Footer from "../components/footer/Footer";
+import Hero from "../components/home/Hero";
+// import Feature from "../components/featuresection/Feature";
+// import Discover from "../components/discover/Discover";
+// import Footer from "../components/footer/Footer";
 import { Helmet } from "react-helmet";
 
 function Home() {
@@ -18,6 +18,7 @@ function Home() {
         <link rel="canonical" href="/" />
       </Helmet>
       <Hero />
+
       {/* <Feature />
         <Discover />
         <Footer /> */}

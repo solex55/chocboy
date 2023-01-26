@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Heroimg from "../../assets/navbar-img.png";
-import Navimghero from "../../assets/nav4.png";
-import Heromain from "../../assets/heromain1.png";
-/* import Nav from '../nav/Nav'
- */ import Navbar from "../navbar/Navbar";
+// import { Link } from "react-router-dom";
+// import Navimghero from "../../assets/nav4.png";
+// import Heromain from "../../assets/heromain1.png";
+
+import top_bg_image from "../../assets/navbar-img.png";
+import Navbar from "../navbar/Navbar";
 import "./hero.css";
 
 function hero() {
@@ -37,6 +37,7 @@ function hero() {
                     "linear-gradient(180deg, #79372A 0%, #39170f 100%)",
                 }}
               >
+              // linear-gradient(210.81deg, #39170F -19.73%, #79372A 81.32%)
                 Shop Now
               </button>
             </Link>

@@ -8,6 +8,7 @@ module.exports = {
         discover: "url('../src/assets/discover.png')",
         process: "url('../src/assets/process.png')",
         recipe: "url('../src/assets/recipe.png')",
+        hero: "url('../src/assets/nav4.png')",
       },
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],
