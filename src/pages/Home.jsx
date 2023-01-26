@@ -3,6 +3,7 @@ import Hero from "../components/home/Hero";
 // import Feature from "../components/featuresection/Feature";
 // import Discover from "../components/discover/Discover";
 // import Footer from "../components/footer/Footer";
+import Feature from "../components/home/featuresection/Feature";
 import { Helmet } from "react-helmet";
 
 function Home() {
@@ -17,9 +18,11 @@ function Home() {
         <meta name="keyword" content="chocboy! chocolate nigeria order" />
         <link rel="canonical" href="/" />
       </Helmet>
-      <Hero />
 
-      {/* <Feature />
+      <Hero />
+      <Feature />
+
+      {/*
         <Discover />
         <Footer /> */}
     </div>
