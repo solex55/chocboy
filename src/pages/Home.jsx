@@ -4,6 +4,7 @@ import Hero from "../components/home/Hero";
 import Feature from "../components/home/featuresection/Feature";
 import { Helmet } from "react-helmet";
 import Discover from "../components/home/discover/Discover";
+import ContactUs from "../components/contact/ContactUs";
 
 function Home() {
   return (
@@ -20,10 +21,9 @@ function Home() {
 
       <Hero />
       <Feature />
-
       <Discover />
-      {/*
-        <Footer /> */}
+      <ContactUs />
+      {/* <Footer /> */}
     </div>
   );
 }
