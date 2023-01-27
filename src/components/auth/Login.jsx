@@ -8,13 +8,11 @@ import { Formik, Form, ErrorMessage, Field } from "formik";
 import { passwordRegExp } from "../../utils/helpers";
 
 const initialValues = {
-  fullName: "",
   email: "",
   password: "",
 };
 
-const registerSchema = Yup.object().shape({
-  fullName: Yup.string().required("Name is Required"),
+const loginSchema = Yup.object().shape({
   email: Yup.string()
     .email("Invalid email Format")
     .required("Email is Required"),
@@ -35,14 +33,14 @@ export default function RegisterView() {
   };
 
   return (
-    <AuthLayout header="Create Account">
+    <AuthLayout header="Welcome Back">
       <div className="flex gap-5 md:gap-10 mt-7">
         <button
           className="w-1/2 flex flex-col md:flex-row items-center gap-2 md:gap-2 text-xs md:text-sm text-[#C4C4C4] bg-[rgba(118, 155, 193, 0.05)] px-1 md:px-3 py-3 rounded-md"
           style={{ border: "1px solid rgba(168, 160, 160, 0.5)" }}
         >
           <FcGoogle size="1.3rem" />
-          Register with Google
+          Login with Google
         </button>
 
         <button
@@ -50,7 +48,7 @@ export default function RegisterView() {
           style={{ border: "1px solid rgba(168, 160, 160, 0.5)" }}
         >
           <BsFacebook size="1.3rem" color="#4267B2" />
-          Register with Facebook
+          Login with Facebook
         </button>
       </div>
 
@@ -62,27 +60,12 @@ export default function RegisterView() {
 
       <Formik
         initialValues={initialValues}
-        validationSchema={registerSchema}
+        validationSchema={loginSchema}
         onSubmit={onSubmit}
       >
         {(formik) => {
           return (
             <Form>
-              <div className="w-full mb-10 md:mb-0">
-                <Field
-                  type="text"
-                  name="fullName"
-                  id="fullName"
-                  placeholder="Full Name"
-                  className={`border py-2 outline-none border-[#C4C4C4] w-full border-t-0 border-x-0`}
-                />
-                <ErrorMessage
-                  name="fullName"
-                  component="span"
-                  className="error text-xs"
-                />
-              </div>
-
               <div className="my-10">
                 <Field
                   type="email"
@@ -123,9 +106,9 @@ export default function RegisterView() {
                 </button>
 
                 <p className="text-sm mt-5">
-                  Already a member?{" "}
-                  <Link className="text-[#FBB040]" to="/login">
-                    Sign in
+                  Not a member?{" "}
+                  <Link className="text-[#FBB040]" to="/register">
+                    Sign up
                   </Link>
                 </p>
               </div>
