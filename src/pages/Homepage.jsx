@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/heroimage/Heroimage";
-import Values from "../components/values/Values";
+import Values from "../components/aboutUs/values/Values";
 import Value from "../components/valueland/Valueland";
 import Footer from "../components/footer/Footer";
 import { Helmet } from "react-helmet";
