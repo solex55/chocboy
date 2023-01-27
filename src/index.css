@@ -65,3 +65,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.recipes_container > div:nth-child(odd) {
+  background-color: #ece6e4;
+}
+
+.recipes_container > div:nth-child(even) > div {
+  flex-direction: column !important;
+}
+
+@media (min-width: 768px) {
+  .recipes_container > div:nth-child(even) > div {
+    flex-direction: row-reverse !important;
+  }
+}

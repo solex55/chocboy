@@ -25,7 +25,7 @@ function Navbar() {
     },
     {
       label: "Recipes",
-      route: "/recipes",
+      route: "/recipe",
     },
     {
       label: "Blog",
