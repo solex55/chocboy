@@ -15,7 +15,7 @@ import Breadstick from "./pages/Breadstick";
 import Cookie from "./pages/Cookie";
 import Contactus from "./pages/Contactus";
 import Profile from "./pages/Profile";
-import OtPassword from "./pages/OtPassword";
+import OtpPassword from "./pages/OtpPassword";
 import Resetpassword from "./pages/Resetpassword";
 import Cart from "./pages/Cart";
 import Homepage from "./pages/Homepage";
@@ -42,7 +42,7 @@ function App() {
           <Route path="/chocboy-breadstick" element={<Breadstick />} />
           <Route path="/contact-us" element={<Contactus />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/otp-password" element={<OtPassword />} />
+          <Route path="/otp-password" element={<OtpPassword />} />
           <Route path="/reset-password" element={<Resetpassword />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/home" element={<Homepage />} />
