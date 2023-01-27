@@ -102,11 +102,17 @@ export default function RegisterView() {
                   className="bg-sec rounded-md py-2 w-52 text-medium"
                   type="submit"
                 >
-                  Create Account
+                  Login
                 </button>
 
-                <p className="text-sm mt-5">
-                  Not a member?{" "}
+                <div className="text-sm mt-4">
+                  <Link className="text-[#FBB040]" to="/forgot-password">
+                    Forgot Password?
+                  </Link>
+                </div>
+
+                <p className="text-sm mt-7">
+                  Don’t have an account?{" "}
                   <Link className="text-[#FBB040]" to="/register">
                     Sign up
                   </Link>
