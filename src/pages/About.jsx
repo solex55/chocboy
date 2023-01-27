@@ -1,10 +1,7 @@
 import React from "react";
-import Header from "../components/header/Header";
-import Abouttext from "../components/aboutText/Abouttext";
-import Team from "../components/team/Team";
-import Footer from "../components/footer/Footer";
 import abouthero from "../assets/chocabt.jpg";
 import { Helmet } from "react-helmet";
+import PagesTopLayout from "../components/layout/PagesTopLayout";
 
 export default function About() {
   return (
@@ -21,10 +18,10 @@ export default function About() {
         />
         <link rel="canonical" href="/about" />
       </Helmet>
-      <Header heroText="About Us" img={abouthero} />
-      <Abouttext />
-      <Team />
-      <Footer />
+
+      <PagesTopLayout heading="About Us" backgroundImage={abouthero}>
+        <div>HELLO WORLD</div>
+      </PagesTopLayout>
     </div>
   );
 }

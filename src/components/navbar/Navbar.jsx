@@ -41,7 +41,9 @@ function Navbar() {
           const isActive = path === route;
           return (
             <Link key={label} to={route}>
-              <p className="text-sm text-[#39170F]">{label}</p>
+              <p className="text-sm text-[#39170F] hover:border-b-2 hover:border-b-black transition-all">
+                {label}
+              </p>
               <div
                 className={`${
                   isActive ? "bg-black" : "bg-transparent"
