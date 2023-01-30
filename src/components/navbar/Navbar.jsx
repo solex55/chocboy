@@ -1,106 +1,133 @@
-import React from "react";
- import { NavLink as Link } from 'react-router-dom'
- import {FaBars, FaTimes} from 'react-icons/fa' 
-import choclogo from '../../assets/chocboy-logo.png';
- import cat from '../../assets/spdr.png';
- import profile from '../../assets/prof1.png';
+import React, { useState } from "react";
+import { MdClear } from "react-icons/md";
+import logo from "../../assets/logo.svg";
+import { Link, useLocation } from "react-router-dom";
+import { BiUserCircle } from "react-icons/bi";
+import { BsCartCheck } from "react-icons/bs";
+import { HiBars3 } from "react-icons/hi2";
 
 function Navbar() {
-     const [navbarOpen, setNavbarOpen] = React.useState(false);
-     return (
+  const router = useLocation();
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
+  const defaultRoutes = [
+    {
+      label: "Home",
+      route: "/",
+    },
+    {
+      label: "About us",
+      route: "/about",
+    },
+    {
+      label: "Products",
+      route: "/shop",
+    },
+    {
+      label: "Recipes",
+      route: "/recipe",
+    },
+    {
+      label: "Blog",
+      route: "/blog",
+    },
+  ];
+
+  const NavbarItems = () => {
+    return (
       <>
-          <nav className="absolute flex flex-wrap items-center  z-40 w-full ">
-             <div className="container px-0 lg:px-4 mx-auto flex flex-wrap items-center justify-around">
-               <div className="w-full relative flex justify-between px-5  lg:w-auto lg:static lg:block lg:justify-start">
-                <Link 
-                  className=" inline-block mr-4 py-2 absolute z-[100] top-0  whitespace-nowrap "
-                  to="/"
-                >
-                  <img id='logo' src={choclogo} sizes={8} alt="logo" className="cursor-pointer h-12" />
-                </Link>
-                 <button
-                  className=" cursor-pointer py-2 border border-solid border-transparent rounded bg-transparent absolute z-[12222] top-0  right-0 pr-8 block lg:hidden outline-none focus:outline-none"
-                  type="button"
-                  onClick={() => setNavbarOpen(!navbarOpen)}
-                >
-                  {!navbarOpen ? ( <FaBars size={30}/>) : (<FaTimes size={30}/>)}
-  
-                </button> 
-              </div>
-              <div>
-                <ul className="lg:flex hidden items-center text-main gap-2 ">
-                  
-                  <li className="nav-item">
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold text-main hover:opacity-75 hover:border-bottom' to="/">Home</Link>
-                  </li>
-                  <li className="nav-item">
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/about">About</Link>
-                  </li>
-                  <li className="nav-item">
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/shop">Products</Link>
-                  </li>
-                  <li className="nav-item">
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/recipes">Recipés</Link>
-                  </li>
-                  <li className="nav-item">
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/blog">Blog</Link>
-                  </li>
-  
-                  
-                   
-                </ul>
-                
-              </div>
-
-              <div className="lg:flex hidden">
-  
-                  <Link className='px-3 flex items-center  hover:opacity-75' to="/login">
-                    <img src={profile} alt="Chocboyshop" />
-                  </Link>
-
-                  <Link className='px-3  flex items-center hover:opacity-75' to="/shop">
-                    <img src={cat} alt="Chocboy shop" />
-                  </Link>
-                </div>
-
-                {/* MOBILE NAV */}
-                 <ul className={`lg:hidden  w-full  items-center text-center  bg-sec  duration-500 h-fit absolute top-0 pt-14 ${navbarOpen ? " block" : " hidden"}`}> {/* absolute */}
-                  
-                  <li>
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold text-main hover:opacity-75 hover:border-bottom' to="/">Home</Link>
-                  </li>
-                  <li>
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/about">About</Link>
-                  </li>
-                  <li>
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/shop">Products</Link>
-                  </li>
-                  <li>
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/recipes">Recipés</Link>
-                  </li>
-                  <li>
-                      <Link className='px-3 py-7 inline-block  items-center text-2xl  font-bold  text-main hover:opacity-75' to="/blog">Blog</Link>
-                  </li>
-
-                  <div className="lg:hidden flex  justify-center py-7">
-  
-                        <Link className='px-3 flex items-center  hover:opacity-75' to="/login">
-                            <img src={profile} alt="Chocbo user" />
-                        </Link>
-
-                        <Link className='px-3  flex items-center hover:opacity-75' to="/shop">
-                            <img src={cat} alt="Chocboy shop" />
-                        </Link>
-                    </div>
-                </ul>
-
-            </div>
-          </nav>
-        
-
-
+        {defaultRoutes.map(({ label, route }) => {
+          const path = router.pathname;
+          const isActive = path === route;
+          return (
+            <Link key={label} to={route}>
+              <p className="text-sm text-[#39170F] hover:border-b-2 hover:border-b-black transition-all">
+                {label}
+              </p>
+              <div
+                className={`${
+                  isActive ? "bg-black" : "bg-transparent"
+                } h-1 rounded-lg`}
+              />
+            </Link>
+          );
+        })}
       </>
     );
+  };
+
+  return (
+    <nav className="flex justify-between items-center relative z-10 max-w-[1300px] mx-auto h-[100px] md:h-[130px] px-5 md:px-20">
+      <div>
+        <Link to="/">
+          <img src={logo} alt="Choco boy logo" className="w-28 md:w-32" />
+        </Link>
+      </div>
+
+      <button
+        type="button"
+        className="md:hidden"
+        onClick={() => setNavbarOpen(!navbarOpen)}
+      >
+        <HiBars3 size="2rem" />
+      </button>
+
+      <div className="hidden md:flex h-full items-center gap-x-7">
+        <NavbarItems />
+      </div>
+
+      <div className="h-full hidden md:flex gap-x-7 items-center">
+        <Link to="/login">
+          <button>
+            <BiUserCircle size="2rem" />
+          </button>
+        </Link>
+
+        <Link to="/shop">
+          <button>
+            <BsCartCheck size="2rem" />
+          </button>
+        </Link>
+      </div>
+
+      {/* NAVBAR MOBILE */}
+      <div
+        className={`fixed top-0 h-screen w-screen bg-primary left-0 px-5 ${
+          navbarOpen ? "block" : "hidden"
+        } `}
+      >
+        <div className="h-[100px] flex justify-between items-center">
+          <div>
+            <Link to="/">
+              <img src={logo} alt="Choco boy logo" className="w-28 md:w-32" />
+            </Link>
+          </div>
+
+          <button type="button" onClick={() => setNavbarOpen(!navbarOpen)}>
+            <MdClear size="2rem" />
+          </button>
+        </div>
+
+        <div className="flex flex-col items-center gap-y-10 my-14">
+          <NavbarItems />
+        </div>
+
+        <div className="flex justify-center gap-x-7 items-center">
+          <Link to="/login">
+            <button>
+              <BiUserCircle size="2rem" />
+            </button>
+          </Link>
+
+          <Link to="/shop">
+            <button>
+              <BsCartCheck size="2rem" />
+            </button>
+          </Link>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;

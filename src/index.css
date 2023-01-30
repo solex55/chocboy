@@ -1,62 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@layer base {
   html {
     font-family: Poppins, sans-serif;
   }
 }
 
 :root {
-    --primary-linear: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
-    --secondary-color: #fbb040;
-    --primary-color: #39170f;
-    --overlay-color: rgba(121, 55, 42, 0.54);
-    --sub-text: #79372A;
-    --foot-style: #4d2117;
-    --feat-color: #ECE6E4;
-  }
-  
-
-  .text-main {
-    color: var(--primary-color);
-  }
-  
-  .text-sec {
-    color: var(--secondary-color);
-  }
-  .text-sub {
-    color: var(--sub-text);
-  }
-  .text-sub {
-    color: var(--sub-text);
-  }
-  .bg-sub {
-    background: var(--sub-text);
-  }
-  .bg-main {
-    background: var(--primary-color);
-  }
-  .bg-sec {
-    background: var(--secondary-color);
-  }
-  .bg-sub {
-    background: var(--sub-text);
-  }
-  .bg-foot {
-    background: var(--foot-style);
-  }
-  .bg-feat {
-    background: var(--feat-color);
-  }
-
-  .hero-head {
-    line-height: 140%;
+  --primary-linear: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  --secondary-color: #fbb040;
+  --primary-color: #39170f;
+  --overlay-color: rgba(121, 55, 42, 0.54);
+  --sub-text: #79372a;
+  --foot-style: #4d2117;
+  --feat-color: #ece6e4;
 }
 
-.bg-overlay{
+.text-main {
+  color: var(--primary-color);
+}
+
+.text-sec {
+  color: var(--secondary-color);
+}
+.text-sub {
+  color: var(--sub-text);
+}
+.text-sub {
+  color: var(--sub-text);
+}
+.bg-sub {
+  background: var(--sub-text);
+}
+.bg-main {
+  background: var(--primary-color);
+}
+.bg-sec {
+  background: var(--secondary-color);
+}
+.bg-sub {
+  background: var(--sub-text);
+}
+.bg-foot {
+  background: var(--foot-style);
+}
+.bg-feat {
+  background: var(--feat-color);
+}
+
+.hero-head {
+  line-height: 140%;
+}
+
+.bg-overlay {
   background-color: var(--overlay-color);
+}
+
+.auth_layout_bg {
+  background-image: url("./assets/signn.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recipes_container > div:nth-child(odd) {
+  background-color: #ece6e4;
+}
+
+.recipes_container > div:nth-child(even) > div {
+  flex-direction: column !important;
+}
+
+@media (min-width: 768px) {
+  .recipes_container > div:nth-child(even) > div {
+    flex-direction: row-reverse !important;
+  }
 }
