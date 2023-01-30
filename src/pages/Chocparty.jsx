@@ -1,9 +1,11 @@
 import React from "react";
-import Header from "../components/header/Header";
 import Party from "../components/party/Party";
-import Footer from "../components/footer/Footer";
 import partyhero from "../assets/image10.png";
 import { Helmet } from "react-helmet";
+
+import PagesTopLayout from "../components/layout/PagesTopLayout";
+import ContactUs from "../components/contact/ContactUs";
+import FooterSection from "../components/footer/FooterSection";
 
 function Chocparty() {
   return (
@@ -20,9 +22,20 @@ function Chocparty() {
         />
         <link rel="canonical" href="/chocparty" />
       </Helmet>
-      <Header heroText="ChocParty" img={partyhero} />
-      <Party />
-      <Footer />
+
+      <PagesTopLayout heading="ChocParty" backgroundImage={partyhero}>
+        <Party />
+
+        <div
+          className="text-white"
+          style={{
+            background: "linear-gradient(180deg, #79372A 0%, #39170F 144.87%)",
+          }}
+        >
+          <ContactUs />
+          <FooterSection />
+        </div>
+      </PagesTopLayout>
     </div>
   );
 }

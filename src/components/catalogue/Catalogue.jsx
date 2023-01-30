@@ -9,7 +9,7 @@ function Catalogue() {
     setVisibleDetails(!visibleDetails);
   };
   return (
-    <div className="py-16 mx-8 lg:mx-24 flex flex-col lg:flex-row flex-wrap justify-center items-center gap-8">
+    <div className="py-16 flex flex-col lg:flex-row flex-wrap justify-center items-center gap-8">
       {CATALOGUEDATA &&
         CATALOGUEDATA.map((cat) => (
           <div className="w-full lg:w-2/5" id={cat.id}>

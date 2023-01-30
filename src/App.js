@@ -28,6 +28,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/recipe" element={<Products />} />
+          <Route path="/otp-password" element={<OtpPassword />} />
+          <Route path="/reset-password" element={<Resetpassword />} />
           <Route path="/chocparty" element={<Chocparty />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/blog" element={<Blog />} />
@@ -41,8 +43,7 @@ function App() {
           <Route path="/chocboy-breadstick" element={<Breadstick />} />
           <Route path="/contact-us" element={<Contactus />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/otp-password" element={<OtpPassword />} />
-          <Route path="/reset-password" element={<Resetpassword />} />
+
           <Route path="/cart" element={<Cart />} />
           <Route path="/home" element={<Homepage />} />
         </Routes>

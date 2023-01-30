@@ -1,9 +1,10 @@
 import React from "react";
-import Footer from "../components/footer/Footer";
-import Header from "../components/header/Header";
 import Catalogue from "../components/catalogue/Catalogue";
 import shophero from "../assets/shopp.png";
 import { Helmet } from "react-helmet";
+import PagesTopLayout from "../components/layout/PagesTopLayout";
+import ContactUs from "../components/contact/ContactUs";
+import FooterSection from "../components/footer/FooterSection";
 
 function Shop() {
   return (
@@ -14,9 +15,20 @@ function Shop() {
         <meta name="keyword" content="chocboy! chocolate nigeria order Shop " />
         <link rel="canonical" href="/shop" />
       </Helmet>
-      <Header heroText="Shop" img={shophero} />
-      <Catalogue />
-      <Footer />
+
+      <PagesTopLayout heading="Shop" backgroundImage={shophero}>
+        <Catalogue />
+
+        <div
+          className="text-white"
+          style={{
+            background: "linear-gradient(180deg, #79372A 0%, #39170F 144.87%)",
+          }}
+        >
+          <ContactUs />
+          <FooterSection />
+        </div>
+      </PagesTopLayout>
     </div>
   );
 }
